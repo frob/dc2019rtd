@@ -1,0 +1,16 @@
+{
+  "name": "dc2017d8arch",
+  "version": "1.0.0",
+  "description": "Drupal Con NA 2017 Drupal 8 Architechture Session",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "js-yaml": "^3.8.2",
+    "jstransformer-markdown-it": "^2.0.0",
+    "pug": "^0.1.0"
+  }
+}

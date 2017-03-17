@@ -1,0 +1,21 @@
+{
+  "name": "dc2017d8arch",
+  "authors": [
+    "Frank Anderson <frob@249517.no-reply.drupal.org>"
+  ],
+  "description": "Drupal Con NA 2017 Drupal 8 Architechture Session",
+  "main": "",
+  "license": "UNLICENSED",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal-js": "^2.6.2"
+  }
+}

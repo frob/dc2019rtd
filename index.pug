@@ -1,0 +1,12 @@
+html
+  head
+    link(rel="stylesheet" href="bower_components/reveal-js/css/reveal.css")
+    link(rel="stylesheet" href="bower_components/reveal-js/css/theme/blood.css")
+  body
+    div.reveal
+      div.slides
+        each item in outline
+          section= item
+      script(src="bower_components/reveal-js/js/reveal.min.js")
+      script.
+          Reveal.initialize();
