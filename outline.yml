@@ -1,9 +1,9 @@
 ---
   - introduction.md
   - slide-01.md # - Outline
-  # - Prolog
-  # - Basic Drupal architecture
-  #   - Vocabulary
+  - slide-02.md # - Prolog
+  - slide-03.md # - Basic Drupal architecture
+  #   - Entities
   #   - Modern Drupal 7 site building
   # - Custom LMS Drupal 7 architecture
   #   - Features
@@ -19,3 +19,4 @@
   #   - Development
   #   - Content strategy
   # - Conclusion
+  # - Apendix

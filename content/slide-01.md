@@ -2,7 +2,7 @@
 
  - Prolog
  - Basic Drupal architecture
-  - Vocabulary
+  - Entities
   - Modern Drupal 7 site building
  - Custom LMS Drupal 7 architecture
   - Features
