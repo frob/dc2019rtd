@@ -6,6 +6,7 @@
    [Why the big architectural changes in Drupal 8 - Dries, 2013](http://buytaert.net/why-the-big-architectural-changes-in-drupal-8)
    [The pain before the pay-off - Dries, 2013](http://buytaert.net/why-the-big-architectural-changes-in-drupal-8)
   - Entities
+    [Drupal Fields or Properties](http://www.drupalonwindows.com/en/blog/drupal-fields-or-properties-or-something-else)
   - Modern Drupal 7 site building
  - Custom LMS Drupal 7 architecture
   - Features
