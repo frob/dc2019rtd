@@ -1,10 +1,10 @@
 ---
   - introduction.md
-  - slide-01.md # - Outline
-  - slide-02.md # - Prolog
-  - slide-03.md # - Basic Drupal architecture
-  - slide-04.md #   - Entities
-  - slide-05.md #   - Modern Drupal 7 site building
+  - slide-010.md # - Outline
+  - slide-020.md # - Prolog
+  - slide-030.md # - Basic Drupal architecture
+  - slide-040.md #   - Entities
+  - slide-050.md #   - Modern Drupal 7 site building
   # - Custom LMS Drupal 7 architecture
   #   - Features
   #   - Content strategy
