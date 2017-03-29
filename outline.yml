@@ -4,7 +4,7 @@
   - slide-02.md # - Prolog
   - slide-03.md # - Basic Drupal architecture
   - slide-04.md #   - Entities
-  #   - Modern Drupal 7 site building
+  - slide-05.md #   - Modern Drupal 7 site building
   # - Custom LMS Drupal 7 architecture
   #   - Features
   #   - Content strategy
