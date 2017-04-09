@@ -1,20 +1,21 @@
 ## Basic overview
 
  - Prolog
- - Basic Drupal architecture
-   - Entities
-   - Modern Drupal 7 site building
+ - Why look at Drupal 8
  - Custom LMS Drupal 7 architecture
    - Features
    - Content strategy
-   - Modules used
+     - Basic Drupal architecture
+       - Entities
+   - Modules used & Modern Drupal 7 site building
    - Custom development
- - Building this with Drupal 8
-   - Considerations
-     - Module availability
-     - Architectural differences
-  - What needs to change
-    - Architecture
-    - Development
-    - Content strategy
+ - Considerations Building a LMS with Drupal 8
+   - Architectural differences
+   - UI Changes
+   - Module availability
+   - Specifically What needs to change
+     - Architecture
+     - Development
+     - Content strategy
  - Conclusion
+ - Appendix
