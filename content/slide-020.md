@@ -1,5 +1,6 @@
 ---
   notes:
+    - The big question is D8 or D7
     - As an exercise in evaluating the differences in building with D7 vs D8
     - To see the state of the contrib space in D8
       - With every module in dev or beta or RC or alpha, how do we tell what will work?
