@@ -1,23 +1,45 @@
 ---
   - introduction.md
-  - slide-010.md # - Outline
-  - slide-020.md # - Prolog
-  - slide-030.md # - Basic Drupal architecture
-  - slide-040.md #   - Entities
-  - slide-050.md #   - Modern Drupal 7 site building
-  - slide-060.md # - Custom LMS Drupal 7 architecture
-  #   - Features
-  - slide-080.md #   - Content strategy
-  #   - Modules used
-  #   - Custom development
-  # - Building this with Drupal 8
-  #   - Considerations
-  #     - Module availability
-  #       - What to do when there is no D8 Version
-  #     - Architectural differences
-  # - What needs to change
-  #   - Architecture
-  #   - Development
-  #   - Content strategy
-  # - Conclusion
-  # - Appendix
+  - slide-010.md # 01 - Outline
+  - slide-020.md # 02 - Prolog
+  # 03 - Why look at Drupal 8
+  - slide-060.md # 04 - Custom LMS Drupal 7 architecture
+  # 05   - Features
+  - slide-080.md # 06   - Content strategy
+  - slide-030.md # 07     - Basic Drupal architecture
+  - slide-040.md # 08       - Entities
+  - slide-050.md # 09   - Modules used & Modern Drupal 7 site building
+  # 10   - Custom development
+  # 11 - Considerations Building a LMS with Drupal 8
+  # 12   - Architectural differences
+  # 13   - UI Changes
+  # 14   - Module availability
+  # 15   - Specifically What needs to change
+  # 16     - Architecture
+  # 17     - Custom Development
+  # 18     - Content strategy
+  # 19 - Conclusion
+  # 20 - Appendix
+  #
+  # - introduction.md
+  # - slide-010.md # - Outline
+  # - slide-020.md # - Prolog
+  # - slide-030.md # - Basic Drupal architecture
+  # - slide-040.md #   - Entities
+  # - slide-050.md #   - Modern Drupal 7 site building
+  # - slide-060.md # - Custom LMS Drupal 7 architecture
+  # #   - Features
+  # - slide-080.md #   - Content strategy
+  # #   - Modules used
+  # #   - Custom development
+  # # - Building this with Drupal 8
+  # #   - Considerations
+  # #     - Module availability
+  # #       - What to do when there is no D8 Version
+  # #     - Architectural differences
+  # # - What needs to change
+  # #   - Architecture
+  # #   - Development
+  # #   - Content strategy
+  # # - Conclusion
+  # # - Appendix
