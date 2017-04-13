@@ -3,7 +3,7 @@
   - slide-010.md # 01 - Prolog - Outline
   - slide-020.md # 02 - Why look at Drupal 8
   - slide-030.md # 03 - Custom LMS Drupal 7 architecture
-  # 04   - Features
+  - slide-040.md # 04   - Features
   - slide-050.md # 05   - Content strategy
   - slide-060.md # 06     - Basic Drupal architecture
   - slide-070.md # 07       - Entities
