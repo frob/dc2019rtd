@@ -4,7 +4,7 @@
     - So let's capture that thought for future reference. Sweeping changes are required to make major advances in technology, and often times there is a lot of pain before the pay-off. Dries, 2006
     - Switching to semver should allow for smaller backward compatible changes.
     - Testing infrastructure should ensure backward compatible changes are backward compatible. The DA infrastructure team has made this a reality.
-    - Good news, there are fewer changes for site builders to worry about.
+    - hyhyhhhyhhy Good news, there are fewer changes for site builders to worry about.
     - Fields, Entities abstractions match moving from D7 to D8
     - Doesn't mean there is a clear upgrade path.
 
