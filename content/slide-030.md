@@ -1,18 +1,22 @@
 ---
   notes:
-    - The reason Drupal has been successful is because we always made big, forward-looking changes. It’s a cliché, but change has always been the only constant in Drupal. The result is that Drupal has stayed relevant, unlike nearly every other Open Source CMS over the years. The biggest risk for our project is that we don't embrace change. Dries, 2013
-    - So let's capture that thought for future reference. Sweeping changes are required to make major advances in technology, and often times there is a lot of pain before the pay-off. Dries, 2006
-    - Switching to semver should allow for smaller backward compatible changes.
-    - Testing infrastructure should ensure backward compatible changes are backward compatible. The DA infrastructure team has made this a reality.
-    - Good news, there are fewer changes for site builders to worry about.
-    - Fields, Entities abstractions match moving from D7 to D8
-    - Doesn't mean there is a clear upgrade path.
-
+  - What is an LMS? An LMS is a Learning Management System.
+  - It is software that allows for the organization and delivery of courses or training programs. If you have used buildamodule.com or drupalize.me then you have used a LMS.
+  - @TODO find out about the taxonomy of course work. Modules etc
+  - Our custom LMS is structured as
+    - module -> menu
+      - segments -> nodes
+        - components -> paragraph items
+  - In the end our site had 13 paragraph item bundles for 1 content type
+  - Four where interactive
+    - Text response
+    - Checkbox list
+    - Drag and Drop
+    - Landscape (planchette board position placement)
+  - Four where used for custom inter and intra module navigation
+  - The rest where videos, image, and text.
+  - all can be combined to form larger whole components.
+  - Each interactive paragraph item had a corresponding entity form with an entity reference back to the paragraphs item that displayed the form.
+    - Slightly complicated, using Drupal's genius render array system that doesn't care if it is displaying a form, or content, or anything themable, we where able to HULK smash the entityforms into the paragraph items and save any users response and know what they where responding to. Very cool stuff.
+  - It gets even better. Our client wanted users to be able to self evaluate their responses. So we have flags that let the users share their responses, in turn if they share their response then they see their peer's responses.
 ---
-
-## Basic Drupal Architecture
-
-> "The reason Drupal has been successful is because we always made big, forward-looking changes. It’s a cliché, but change has always been the only constant in Drupal. The result is that Drupal has stayed relevant, unlike nearly every other Open Source CMS over the years. The biggest risk for our project is that we don't embrace change." [Dries, 2013](http://buytaert.net/why-the-big-architectural-changes-in-drupal-8)
-
- - Entities
- - Fields
