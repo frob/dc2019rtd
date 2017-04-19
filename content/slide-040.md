@@ -23,3 +23,5 @@
       - segments -> nodes
         - components -> paragraphs items
 ---
+
+### LMS Features

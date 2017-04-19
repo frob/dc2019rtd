@@ -14,7 +14,7 @@
 ---
 
 
-## Content Strategy
+### LMS Content Strategy
 
 How is content managed?
 

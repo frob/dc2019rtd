@@ -11,3 +11,5 @@
       - segments -> nodes
         - components -> paragraphs items
 ---
+
+## Custom LMS Architecture

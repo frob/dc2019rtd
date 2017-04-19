@@ -7,7 +7,6 @@
     - Good news, there are fewer changes for site builders to worry about.
     - Fields, Entities abstractions match moving from D7 to D8
     - Doesn't mean there is a clear upgrade path.
-
 ---
 
 ## Basic Drupal Architecture

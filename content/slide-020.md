@@ -10,6 +10,8 @@
     - Go from "I will take the ring to Mordor" to "I'm going on an adventure"
 ---
 
+## Why do this?
+
  - I create with Drupal 7.
  - I want to create with Drupal 8.
  - I want to know the differences between creating with Drupal 7 vs 8.
