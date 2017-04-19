@@ -12,9 +12,11 @@
     - The last two modules don't have much to do with this site per-se but they are fantastic modules that will really help a site-builder.
     - Speedboxes -- Allows us to check multiple checkboxes at the same time. Super useful for setting up permissions. (@TODO create licecap demo gif)
     - Coffee -- Speed up your Drupal navigation by typing where you want to go. Much like unity for Ubuntu or Spotlight for Mac or Start for Windows, this module allows us to zip around our site's admin interface with ease.  (@TODO create licecap demo gif)
+
+    - Our initial expectation was that we would have to build all this content in excel (this isn't an uncommon practice) and I was at one point building a migration to import all the content from an Excel CSV. Choosing the Paragraphs module gave our content editors an interface that allowed them to build the content in the site as we where adding functionality.
 ---
 
-## Modern Drupal 7 Site Building
+## Drupal 7 Site Building Modules
 
 *[Frank's list of modern site building tools](https://www.frobiovox.com/posts/2015/09/22/modern-drupal7-site-building-tools.html)*
 
