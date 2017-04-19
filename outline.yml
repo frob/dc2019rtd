@@ -13,11 +13,11 @@
   - slide-100.md # 10 - Considerations Building a LMS with Drupal 8
   # 11   - Architectural differences
   # 12   - UI Changes
-  - slide-130.md  # 13   - Module availability
-  # 14   - Specifically What needs to change
+  - slide-130.md # 13   - Module availability
+  - slide-140.md # 14   - Specifically What needs to change
   # 15     - Architecture
-  # 16     - Custom Development
-  # 17     - Content strategy
+  # 16     - Content strategy
+  # 17     - Custom Development
   # 18 - Conclusion
   # 19 - Appendix
   #
