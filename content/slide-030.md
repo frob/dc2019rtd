@@ -5,8 +5,8 @@
   - It is software that allows for the organization and delivery of courses or training programs. If you have used buildamodule.com or drupalize.me then you have used a LMS.
   - Traditional LMS/Course schema
     - Curriculum or Lesson plan
-      - Unit or Module
-        - Lesson/Project/Assesment/Mini-lessons
+      - Collection of Units or Modules
+        - Collection of Lesson/Project/Assesment/Mini-lessons
   - Our custom LMS is structured as
     - module -> menu
       - segments -> nodes
@@ -16,15 +16,18 @@
 ## Custom LMS Architecture
 
 <dl>
-<dt>Learning Management System</dt>
-<dd>An LMS is software that allows for the organization and delivery of courses or training programs.</dd>
+  <dt>Learning Management System</dt>
+  <dd>An LMS is software that allows for the organization and delivery of courses or training programs.</dd>
+</dl>
 
- - Traditional LMS/Course schema
-   - Curriculum or Lesson plan
-     - Unit or Module
-       - Lesson/Project/Assessment/Mini-lessons
+### Traditional LMS/Course schema
 
-  - Our custom LMS is structured as
-    - module -> menu
-      - segments -> nodes
-        - components -> paragraphs items
+ - Curriculum or Lesson plan
+   - Unit or Module
+     - Lesson/Project/Assessment/Mini-lessons
+
+### Our custom LMS is structured
+
+ - module -> menu
+   - segments -> nodes
+     - components -> paragraphs items
