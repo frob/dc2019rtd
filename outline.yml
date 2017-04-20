@@ -12,7 +12,7 @@
   - slide-095.md # 095 - a word on blocks
   - slide-100.md # 10 - Considerations Building a LMS with Drupal 8
   - slide-110.md # 11   - Architectural differences
-  # 12   - UI Changes
+  - slide-120.md # 12   - UI Changes
   - slide-130.md # 13   - Module availability
   - slide-140.md # 14   - Specifically What needs to change
   # 15     - Architecture
