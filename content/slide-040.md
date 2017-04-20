@@ -3,7 +3,7 @@
   - Traditional LMS/Course schema
     - Curriculum or Lesson plan
       - Unit or Module
-        - Lesson/Project/Assesment/Mini-lessons
+        - Lesson/Project/Assessment/Mini-lessons
           - Standards/Topical
           - Often a curriculum uses a Backwards Design philosophy
           - 5e's
@@ -17,7 +17,7 @@
             - Modeling or Teaching
             - Practice
             - Application
-            - Assesment
+            - Assessment
   - Our custom LMS is structured as
     - module -> menu
       - segments -> nodes
@@ -25,3 +25,15 @@
 ---
 
 ### LMS Features
+
+ - Backwards Design philosophy
+ - Goals of lesson planning
+   - Engage
+   - Explore
+   - Explain
+   - Elaborate
+   - Evaluate
+ - LMS Lesson Goals
+   - Teaching
+   - Application
+   - Assessment
