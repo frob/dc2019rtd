@@ -4,7 +4,7 @@
     - This is where the largest changes where made, but maybe not where it was expected.
     - In Drupal 7 we accomplished the HULK SMASH part, where we smash the form from the entity form into the display of the paragraphs item, with a hook_entity_view_alter implementation coupled with a hook_form_alter implementation. In Drupal 8 with its Object Oriented Architecture I was able to accomplish it in the exact same way.
 
-    - "But Wait" you say, "Drupal 8 is OOP we aren't supposed to put stuff into the .module file anymore. That is just there for decoration!"
+    - \"But Wait\" you say, \"Drupal 8 is OOP we aren't supposed to put stuff into the .module file anymore. That is just there for decoration!\"
     - Oh no, the joy of modifying aspects of the program with hooks is not gone in D8. Hooks are good things, and even though Drupal is want to change things with new version and add modern development practices to Drupal, Drupal also isn't going to ditch what is likely the most flexible pattern of php development just because it stepped in some OOP.
 
     - The Object Oriented Architecture is designed to make common things easier.

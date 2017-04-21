@@ -3,6 +3,9 @@
 const pug = require('pug');
 const fs = require('fs');
 const yaml = require('js-yaml');
+const md = require('markdown-it')();
+const fm = require('front-matter');
+const dpm = console.log;
 
 const outline = yaml.safeLoad(fs.readFileSync('./outline.yml', 'utf8'));
 
@@ -20,5 +23,12 @@ fs.writeFile('index.html', compiledFunction({'outline': content}), function(err)
 
 function loadContent(file) {
   // Eventually this will need to maybe parse the markdown. Maybe not.
-  return fs.readFileSync('./content/' + file, 'utf8');
+  const frontMater = fm(fs.readFileSync('./content/' + file, 'utf8'));
+
+  const contentObject = {
+    body: md.render(frontMater.body),
+    notes: frontMater.attributes.notes
+  }
+
+  return contentObject;
 }

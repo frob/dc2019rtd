@@ -1,6 +1,5 @@
 ---
   notes:
-
     - Considerations Building with Drupal 8
       - Architectural differences
       - UI Changes

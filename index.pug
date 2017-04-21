@@ -6,7 +6,7 @@ html
     div.reveal
       div.slides
         each item in outline
-          section= item
+          section!= item.body
       script(src="bower_components/reveal-js/js/reveal.min.js")
       script.
           Reveal.initialize();
