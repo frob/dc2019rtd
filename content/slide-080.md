@@ -1,44 +1,45 @@
 ---
   notes:
-    - Modules Used
-    - I gave a talk on modern Drupal 7 development at a meetup in Portland last year, and I am not going to go into great detail here. I wrote a blog post about it and if you would like more details I suggest you look there.
-    - I will go over the modules that this site used (in its core functionality), what they do.
-    - Later I will go over how they relate to Drupal 8.
-    - Remember when building a site that the output that drupal give us is always a suggestion. The important part of site building is giving the content team everything they need, you can leave it up to the developers and themers to make sure that the content gets displayed properly.
+    - Content Strategy
+    - Now thats out of the way we can talk about the site's content strategy.
+    - In the end our site had 13 paragraphs item bundles for 1 content type
+    - Three where interactive
+      - Text response
+      - Checkbox list
+      - Drag and Drop
+    - Four where used for custom inter and intra module navigation
+    - The rest where videos, image, and text.
+    - all can be combined to form larger whole components.
+    - Linking the EntityForm Submission to the Paragraph item, each interactive paragraphs item had a corresponding entity form with an entity reference back to the paragraphs item that displayed the form. We used the paragraphs item's bundle machine name to pick the bundle of the EntityForm to display.
+      - We put this all together, using Drupal's ingenious render array system that doesn't care if it is displaying a form, or content, or anything themable, we where able to HULK smash the entityforms into the paragraphs item displays and save any users response and know what they where responding to and who was responding to it.
+    - We also had to allow for self evaluation. Our client wanted users to be able to share their responses and learn from the responses of others. So we used flags that let the users share their responses, in turn if they share their response then they see their peer's responses and then they can edit their old response and save a new one.
 
-    - Paragraphs -- If you are familiar with field collection then this module functions very similarly, with the main exception of the user being able to pick the bundle or paragraph type when creating content.
-    - Entity Form -- In Drupal 8 this module was renamed to eform. The cool part of this module is that it allows us to use the field api to create webforms. Unlike the webform module, the form submissions are entities. This gives us flexibility use in views or displaying them with multiple view modes.
-    - EVA -- Entity View Attachment. Allows us to embed views into fields. Handy for things like Taxonomy term views or anywhere an ID can be used as an argument in a view.
-    @FLAGS
-    - The last two modules don't have much to do with this site per-se but they are fantastic modules that will really help a site-builder.
-    - Coffee -- Speed up your Drupal navigation by typing where you want to go. Much like unity for Ubuntu or Spotlight for Mac or Start for Windows, this module allows us to zip around our site's admin interface with ease.
-    - Speedboxes -- Allows us to check multiple checkboxes at the same time. Super useful for setting up permissions. (@TODO create licecap demo gif)
+    - Our initial expectation was that we would have to build out all the content in a spreadsheet and at one point I was building a migration to import all the content from a CSV. Choosing the Paragraphs module gave our content editors an interface that allowed them to build the content in the site as we where adding functionality.
 ---
 
-## Drupal 7 Modules Used
+### LMS Content Strategy
 
-*[Frank's list of modern site building tools](https://www.frobiovox.com/posts/2015/09/22/modern-drupal7-site-building-tools.html)*
+Arguably, the most important part of a site.
 
-### [Paragraphs](https://www.drupal.org/project/paragraphs)
+#### 13 paragraphs types and 1 content type
 
-Paragraphs allows us to create collections of fields. Each collection type is its own bundle and can have its own fields.
+  - Three where interactive
+    - Text response
+    - Checkbox list
+    - Drag and Drop
 
-### [Entity Form](https://www.drupal.org/project/eform)
+#### The rest are multimedia/content.
 
-Named eForm in Drupal 8. Allows the use of the field api to create webform and have the submissions be entities.
+Everything can be *combined* to form larger whole components.
 
-### [Eva](https://www.drupal.org/project/eva)
 
-Solves the problem of putting views into entities as pseudo-fields.
+#### Linking the EntityForm Submission to the Paragraph item
 
-### [Flag](https://www.drupal.org/project/flag)
+| Entity          |  Machine Name |
+|:----------------|--------------:|
+| Paragraph Type  | text_response |
+| EntityForm Type | text_response |
 
-This module allow users to flag things. Largest use is probably the "Flag this as inappropriate" functionality.
+#### Evaluation
 
-### [Coffee](https://www.drupal.org/project/coffee)
-
-Coffee works like Unity for Ubuntu or Spotlight search for Mac, or the Start Menu in Windows. Just start typing and a list of options will be presented. Pick the option and it will take you there.
-
-### [Speedboxes](https://www.drupal.org/project/speedboxes)
-
-Check more than one box with a click and drag mechanic.
+Sharing via Flags on the paragraphs items

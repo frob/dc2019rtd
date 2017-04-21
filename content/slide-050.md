@@ -1,45 +1,30 @@
 ---
   notes:
-    - Content Strategy
-    - Now thats out of the way we can talk about the site's content strategy.
-    - In the end our site had 13 paragraphs item bundles for 1 content type
-    - Three where interactive
-      - Text response
-      - Checkbox list
-      - Drag and Drop
-    - Four where used for custom inter and intra module navigation
-    - The rest where videos, image, and text.
-    - all can be combined to form larger whole components.
-    - Linking the EntityForm Submission to the Paragraph item, each interactive paragraphs item had a corresponding entity form with an entity reference back to the paragraphs item that displayed the form. We used the paragraphs item's bundle machine name to pick the bundle of the EntityForm to display.
-      - We put this all together, using Drupal's ingenious render array system that doesn't care if it is displaying a form, or content, or anything themable, we where able to HULK smash the entityforms into the paragraphs item displays and save any users response and know what they where responding to and who was responding to it.
-    - We also had to allow for self evaluation. Our client wanted users to be able to share their responses and learn from the responses of others. So we used flags that let the users share their responses, in turn if they share their response then they see their peer's responses and then they can edit their old response and save a new one.
-
-    - Our initial expectation was that we would have to build out all the content in a spreadsheet and at one point I was building a migration to import all the content from a CSV. Choosing the Paragraphs module gave our content editors an interface that allowed them to build the content in the site as we where adding functionality.
+    - Entities are things in Drupal, starting in drupal 7 we got content entities.
+    - In Drupal 6 custom things where typically nodes or totally custom
+    - In Drupal 7 the entity-field system brought the CCK into core without making everything a node
+    - Drupal 8 has a fully fledged entity api which is derived from the capibilities of the contrib entity api module for drupal 7. Now that Drupal is using semver, over time more and more functionallity can be added to subsequent versions of drupal 8 and the entity api can only get more robust.
+    - Users, Taxonomy Terms, and Nodes, are all Entities
+    - An Entity can have Bundles to allow for multiple collections of fields instances on a single type of entity.
+    - Field instances are unique to that bundle.
+    - An Entity has properties which span all bundles.
+      - created date
+      - node status
+      - who created are all properties
+    - A field instance is a place for complex data in a Entity Bundle
+    - A property is simple storage for Entity level data
+    - Properties are linked to an Entity, such as Node. Fields are linked to the Bundle, such as Content Type.
+    - Properties are stored on the entity's table and fields are stored in their own table.
 ---
 
-### LMS Content Strategy
+### Entities
 
-Arguably, the most important part of a site.
+Entities are things in Drupal; things do not have to be nodes.
 
-#### 13 paragraphs types and 1 content type
+ - A bundle is a collection of fields instances on an Entity
+ - A field instance is a place for complex data in a Entity Bundle
+ - A property is simple storage for Entity level data
 
-  - Three where interactive
-    - Text response
-    - Checkbox list
-    - Drag and Drop
+Properties are linked to an Entity, such as Node. Fields are linked to the Bundle, such as Content Type.
 
-#### The rest are multimedia/content.
-
-Everything can be *combined* to form larger whole components.
-
-
-#### Linking the EntityForm Submission to the Paragraph item
-
-| Entity          |  Machine Name |
-|:----------------|--------------:|
-| Paragraph Type  | text_response |
-| EntityForm Type | text_response |
-
-#### Evaluation
-
-Sharing via Flags on the paragraphs items
+Properties are stored on the entity's table and fields are stored in their own table.

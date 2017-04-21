@@ -1,40 +1,13 @@
 ---
   notes:
-    - Site Features
-    - Traditional LMS
-      - Collection of Curriculum or Lesson plans
-        - Collection of Unit or Module
-          - Collection of Lesson/Project/Assessment/Mini-lessons
-            - Curriculum Designer will often use a Backwards Design philosophy
-            - Starts Standards/Topical they with to teach
-            - Using the 5 e's
-              - Engage
-              - Explore
-              - Explain
-              - Elaborate
-              - Evaluate
-            - Thus Goals for Lesson Plan Features
-              - Activate Prior knowledge
-              - Modeling or Teaching
-              - Practice
-              - Application
-              - Assessment
-    - Our custom LMS is structured as
-      - module -> menu
-        - segments -> nodes
-          - components -> paragraphs items
+    - Basic Drupal Architecture
+    - In order to make sure we are all on the same page moving forward I need to talk about some basic Drupal Architecture. If this is review for some of you, I am sorry for the unskippable tutorial level.
+    - Don't worry I will mostly just be talking about Entities and Fields.
 ---
 
-### LMS Features
+## Basic Drupal Architecture
 
- - Backwards Design philosophy
- - Goals of lesson planning
-   - Engage
-   - Explore
-   - Explain
-   - Elaborate
-   - Evaluate
- - LMS Lesson Goals
-   - Teaching
-   - Application
-   - Assessment
+![Forced tutorial](http://static.tvtropes.org/pmwiki/pub/images/forcedtutorial_1678.png)
+
+ - Entities
+ - Fields
