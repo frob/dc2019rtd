@@ -25,13 +25,17 @@ Arguably, the most important part of a site.
 
   - Three where interactive
     - Text response
+    ![](/content/images/p2s2-screens/dinn-7-drag-2.gif)
     - Checkbox list
+    ![](/content/images/p2s2-screens/org-5-multi-check.gif)
     - Drag and Drop
+    ![](/content/images/p2s2-screens/dinn-7-drag.gif)
 
 #### The rest are multimedia/content.
 
 Everything can be *combined* to form larger whole components.
 
+![](/content/images/p2s2-screens/dinn-7-drag-2.gif)
 
 #### Linking the EntityForm Submission to the Paragraph item
 
@@ -43,3 +47,5 @@ Everything can be *combined* to form larger whole components.
 #### Evaluation
 
 Sharing via Flags on the paragraphs items
+
+![](/content/images/p2s2-screens/textandshare.gif)

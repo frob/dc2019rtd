@@ -15,12 +15,17 @@
 
 #### Operations
 
- - New Drop down thingy for selecting what we are doing to a thing.
+![](/content/images/opdropdown.png)
+
+New Drop down thingy for selecting what we are doing to a thing.
 
 #### Form Display Settings
 
- - Multiple entity form settings on the Manage form display page, this includes field widget settings.
- - The "Manage Fields" page is now only about managing what fields are on a entity/bundle and how they are stored.
+Multiple entity form settings on the Manage form display page, this includes field widget settings.
+
+![](/content/images/manageformdisplay.png)
+
+The "Manage Fields" page is now only about managing what fields are on a entity/bundle and how they are stored.
 
 #### Good news about learning curves
 

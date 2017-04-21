@@ -7,11 +7,16 @@
     - Remember when building a site that the output that drupal give us is always a suggestion. The important part of site building is giving the content team everything they need, you can leave it up to the developers and themers to make sure that the content gets displayed properly.
 
     - Paragraphs -- If you are familiar with field collection then this module functions very similarly, with the main exception of the user being able to pick the bundle or paragraph type when creating content.
+
     - Entity Form -- In Drupal 8 this module was renamed to eform. The cool part of this module is that it allows us to use the field api to create webforms. Unlike the webform module, the form submissions are entities. This gives us flexibility use in views or displaying them with multiple view modes.
+
     - EVA -- Entity View Attachment. Allows us to embed views into fields. Handy for things like Taxonomy term views or anywhere an ID can be used as an argument in a view.
+
     - Flags -- This module allow users to flag entities. Largest use is probably the "Flag this as inappropriate" functionality.
     - The last two modules don't have much to do with this site per-se but they are fantastic modules that will really help a site-builder.
+
     - Coffee -- Speed up your Drupal navigation by typing where you want to go. Much like unity for Ubuntu or Spotlight for Mac or Start for Windows, this module allows us to zip around our site's admin interface with ease.
+
     - Speedboxes -- Allows us to check multiple checkboxes at the same time. Super useful for setting up permissions.
 ---
 
@@ -37,8 +42,12 @@ This module allow users to flag things. Largest use is probably the "Flag this a
 
 ### [Coffee](https://www.drupal.org/project/coffee)
 
+![](/content/images/p2s2-screens/coffee.gif)
+
 Coffee works like Unity for Ubuntu or Spotlight search for Mac, or the Start Menu in Windows. Just start typing and a list of options will be presented. Pick the option and it will take you there.
 
 ### [Speedboxes](https://www.drupal.org/project/speedboxes)
+
+![](/content/images/p2s2-screens/speedboxes.gif)
 
 Check more than one box with a click and drag mechanic.

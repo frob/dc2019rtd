@@ -14,11 +14,11 @@
       - Specifically What needs to change
     - Conclusion
     - Appendix
+
+    - Don't take things so seriously
 ---
 
 ## Prolog
-
-![You are here in the galaxy](https://nicspaull.files.wordpress.com/2013/10/you-are-here.jpg "You are here in the galaxy")
 
  - Prolog
  - Why look at Drupal 8
@@ -34,3 +34,6 @@
    - Specifically What needs to change
  - Conclusion <-- **Achievement unlocked**
  - Appendix
+
+
+![Don't take things so seriously ](https://nicspaull.files.wordpress.com/2013/10/you-are-here.jpg "You are here in the galaxy")
