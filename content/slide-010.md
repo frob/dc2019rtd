@@ -1,29 +1,17 @@
 ---
   notes:
-    - Prolog
-      - What will this session be about <-- you are here.
+    - Prolog <-- **You are here in the session**
     - Why look at Drupal 8
-      - "Reiterate the session proposal. Main points: How to decide between versions, Inspire contribution through client projects, Not going to give hard numbers for estimate adjustment because as always 'It depends'"
-      - End with, I wanted to go from "I will take it, though I know not the way" to "I'm going on an adventure"
-    - Custom LMS Drupal 7 architecture <-- what is an LMS
+    - Custom LMS Drupal 7 architecture
       - Features
       - Content strategy
-        - Basic Drupal architecture
-          - Entities
-      - Modules used & Modern Drupal 7 site building
+      - Modules used
       - Custom development
-        - This will likely have the larges chagnes, however, this is a site building talk and so this needs to be high level.
-    - Considerations Building a LMS with Drupal 8
+    - Considerations Building a with Drupal 8
       - Architectural differences
-        - Conceptually not many changes, the site building when along very similarly to as it had with Drupal 7.
-        - Talk about config vs content entities, plugins/Blocks, OOP (high level/composer), Semantic Versioning,
       - UI Changes
       - Module availability
-        - Top Modules & Drupal 8 Contrib initiative, Removed/Replaced Modules, Old/New Utility Modules
-      - Specifically What about the LMS needs to change
-        - Architecture
-        - Custom Development
-        - Content strategy
+      - Specifically What needs to change
     - Conclusion
     - Appendix
 ---
@@ -37,17 +25,12 @@
  - Custom LMS Drupal 7 architecture
    - Features
    - Content strategy
-     - Basic Drupal architecture
-       - Entities
-   - Modules used & Modern Drupal 7 site building
+   - Modules used
    - Custom development
- - Considerations Building a LMS with Drupal 8
+ - Considerations Building a with Drupal 8
    - Architectural differences
    - UI Changes
    - Module availability
    - Specifically What needs to change
-     - Architecture
-     - Custom Development
-     - Content strategy
  - Conclusion
  - Appendix
