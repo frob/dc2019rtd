@@ -13,6 +13,8 @@
     "js-yaml": "^3.8.2",
     "jstransformer-markdown-it": "^2.0.0",
     "markdown-it": "^8.3.1",
+    "markdown-it-container": "^2.0.0",
+    "markdown-it-deflist": "^2.0.1",
     "pug": "^0.1.0"
   }
 }

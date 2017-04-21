@@ -3,7 +3,17 @@
 const pug = require('pug');
 const fs = require('fs');
 const yaml = require('js-yaml');
-const md = require('markdown-it')();
+const md = require('markdown-it')()
+  .use(require('markdown-it-deflist'))
+  .use(require('markdown-it-container'), 'notes', {
+    render: function (tokens, idx) {
+      if (tokens[idx].info.trim() === 'notes') {
+        return '<aside class="notes">';
+      } else {
+        return '</aside>';
+      }
+    }
+  });
 const fm = require('front-matter');
 const dpm = console.log;
 
