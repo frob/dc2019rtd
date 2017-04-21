@@ -5,4 +5,6 @@
     - We develop solutions for our clients including strategic consulting, professional development and content creation, and engineering solutions such as apps, web apps, and websites to help improve the process and practice of teaching and learning.
 ---
 
-![Clarity Innovations Logo]()
+![Clarity Innovations Logo](/content/images/cilogo.jpg)
+
+![New Perspectives Online Screenshot](/content/images/p2s2-screens/screenshot.png)
