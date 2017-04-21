@@ -2,7 +2,11 @@
   notes:
     - Custom Development
     - The meat of how we are putting this together is in the hook_entity_view_alter implementation and the hook_form_alter implementation.
+
+    - Pass the build to custom function.
     - Remember we used the bundle type machine names to add the correct entity form types? We do that with call_user_func which calls a function based on the name we give it. We check beforehand if the function exists, this way it is extensible without having to modify too much existing code. So if we want to add another interactive element we can do so without modifying anything to do with our current interactive elements.
+
+    - Text response callback
     - In the case of the text response this checks for a valid callback and runs this code to include the entity form.
     - Then in the form_alter we change the actual form options or the text area label to use the correct text.
     - Things get complicated at this point, because ajax.
@@ -11,6 +15,8 @@
 ---
 
 ### Custom Development
+
+#### Pass the build to custom function
 
 ```php
     if (!empty($build['#bundle'])) {
@@ -24,11 +30,13 @@
   }
 ```
 
+#### Text response callback
+
 ```php
 /**
  * Implements custom _component_TYPE_alter().
  */
-function _npo_component_text_response_alter(&$build) {
+function _component_text_response_alter(&$build) {
   if (isset($build[0]['#entity']) && !empty($build[0]['#entity']->item_id)) {
     module_load_include('inc', 'entityform', 'entityform.admin');
     $entity_form_name = 'text_submissions';

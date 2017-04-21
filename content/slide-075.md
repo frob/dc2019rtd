@@ -7,6 +7,8 @@
     - Bean gives us all the functionality of building content types with nodes except with blocks instead.
     - I normally add a content view for beans at /admin/content/blocks and I disable the default drupal block management stuff, with the exception of block placement. because that is still necessary.
     - But again, this site didn't make heavy use of blocks.
+
+    - I don't always use blocks, but when I do I use the bean module
 ---
 
 ### A word on Blocks

@@ -10,7 +10,7 @@
      - I want to know the differences between creating with Drupal 7 vs 8.
      - I would like to know how I can leverage the new features of Drupal 8 in complicated information systems.
 
-    - As an exercise in evaluating the differences in building with D7 vs D8
+    - Doing this was an exercise in evaluating the differences in building with D7 vs D8
     - To see the state of the contrib space in D8
       - With every module in dev or beta or RC or alpha, how do we tell what will work?
       - How to contribute? Inspire some contribution.

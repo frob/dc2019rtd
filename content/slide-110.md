@@ -21,27 +21,10 @@
      - RESTful api
      - Experimental Core Modules
       - Content Moderation
-        - Provides moderation states for content
-      - Datetime Range
-        - Provides the ability to store end dates.
-      - Field Layout
-        - Adds layout capabilities to the Field UI.
-      - Inline Form Errors
-        - Adds WCAG 2.0 accessibility compliance for web form errors, but some functionality might not work.
-      - Layout Discovery
-        - Provides a way for modules or themes to register layouts.
-      - Migrate
-        - Handles migrations
-      - Migrate Drupal
-        - Contains migrations from older Drupal versions.
-      - Migrate Drupal UI
-        - Provides a user interface for migrating from older Drupal versions.
-      - Place Blocks
-        - Allow administrators to place blocks from any Drupal page
-      - Settings Tray
-        - Provides the ability to change the most common configuration from the Drupal front-end.
       - Workflows
-        - Provides UI and API for managing workflows. This module can be used with the Content moderation module to add highly customisable workflows to content.
+      - Field Layout
+      - Migrate Drupal UI
+      - Place Blocks <- outside in
     - Switching to semver should allow for smaller backward compatible changes.
     - Testing infrastructure should ensure backward compatible changes are backward compatible. The DA infrastructure team has made this a reality..
 ---
@@ -49,10 +32,12 @@
 ### Architectural Differences
 
  - Configuration Entities
+ - Quick Edit
  - Blocks
  - View Modes
  - New field types (entity reference, link, telephone)
- - Things to google (many have been backported to Drupal 7)
+
+### Things to google (many have been backported to Drupal 7)
    - Composer support
    - Toolbar update (Navbar in Drupal 7)
    - Responsive Image Styles (Picture Module in Drupal 7)
@@ -60,13 +45,4 @@
    - RESTful api
    - Experimental Core Modules
     - Content Moderation
-    - Datetime Range
-    - Field Layout
-    - Inline Form Errors
-    - Layout Discovery
-    - Migrate
-    - Migrate Drupal
-    - Migrate Drupal UI
-    - Place Blocks
-    - Settings Tray
-    - Workflows
+    - etc...
