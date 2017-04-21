@@ -2,7 +2,9 @@
   notes:
     - This is going to be brief, mainly because the UI changes are minimal.
     - One change is Operations now go in a drop down with the maybe most common one first? Really I don't know how that was chosen so if someone here does know please tell me afterward.
-    - Another change you will find between D7 and D8 I have already hinted at with the Form View. If you have a alternate node form then you will find the option for editing that form view in "Manage Form Display" section. This also means that controls for the form widgets are configured on the form view display settings and not the "Manage Fields" page. Mange Fields is not entirely about the field and its storage.
+    - Another change you will find between D7 and D8 I have already hinted at with the Form View. If you have a alternate node form then you will find the option for editing that form view in "Manage Form Display" section. This also means that controls for the form widgets are configured on the form view display settings and not the "Manage Fields" page. Mange Fields is now entirely about the field and its storage.
+  - Good news, there are fewer changes for site builders to worry about.
+  - Bad news, this doesn't mean there is a clear upgrade path from d7 or d6
 ---
 
 ### UI Changes

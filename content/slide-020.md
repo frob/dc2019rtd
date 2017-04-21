@@ -1,13 +1,20 @@
 ---
   notes:
+    - Why
     - The big question is D8 or D7, this is a question that I have to ask myself every time I am asked to do an estimate.
     - How do we pick which version of Drupal to use?
-    - **GET THIS OUT THE WAY** I will not be going over hard numbers for building with one version over the other. I will give you the only answer that I can give knowing what I know about your project's requirements. IT DEPENDS.
+    - Let me **GET THIS OUT THE WAY** I will not be going over hard numbers for building with one version over the other. I will give you the only answer that I can give knowing what I know about your project's requirements. IT DEPENDS.
+
+     - I create with Drupal 7.
+     - I want to create with Drupal 8.
+     - I want to know the differences between creating with Drupal 7 vs 8.
+     - I would like to know how I can leverage the new features of Drupal 8 in complicated information systems.
+
     - As an exercise in evaluating the differences in building with D7 vs D8
     - To see the state of the contrib space in D8
       - With every module in dev or beta or RC or alpha, how do we tell what will work?
       - How to contribute? Inspire some contribution.
-    - Go from "I will take the ring to Mordor" to "I'm going on an adventure"
+    - By the end of this talk I want all of us to go from "I will take the ring to Mordor" to "I'm going on an adventure"
 ---
 
 ## Why do this?

@@ -42,6 +42,8 @@
         - Provides the ability to change the most common configuration from the Drupal front-end.
       - Workflows
         - Provides UI and API for managing workflows. This module can be used with the Content moderation module to add highly customisable workflows to content.
+    - Switching to semver should allow for smaller backward compatible changes.
+    - Testing infrastructure should ensure backward compatible changes are backward compatible. The DA infrastructure team has made this a reality..
 ---
 
 ### Architectural Differences

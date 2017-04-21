@@ -1,7 +1,7 @@
 ---
   notes:
     - Module Availability
-    - Lets acknowledge  the elephant in the room.
+    - Lets acknowledge the elephant in the room.
     - Big problem with my re-architecture exercise.
       - EntityForm is not supported on Drupal 8
       - There is a discussion about whither or not this module is necessary. I of corse believe the module is necessary. However, this doesn't make the module stable today. The module works well enough for this experiment, but if this where a full client project we would have to explore some options.

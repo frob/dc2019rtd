@@ -1,17 +1,17 @@
 ---
- notes:
-   - Maybe use the Hello my name is sticker for the background here.
-   - Web development since high school
-   - Been working in Drupal professionally for just shy of 10 years.
-   - I have worked almost exclusively in the Education industry for nearly 4 years.
-   - Online you can find me as frob
-     - IRC
-     - github
-     - drupal.org
-   - Twitter frobdfas
-   - blog
-   - website
-   - I work for Clarity Innovations.
+  notes:
+    - Maybe use the Hello my name is sticker for the background here.
+    - Web development since high school
+    - Been working in Drupal professionally for just shy of 10 years.
+    - I have worked almost exclusively in the Education industry for nearly 4 years.
+    - Online you can find me as frob
+      - IRC
+      - github
+      - drupal.org
+    - Twitter frobdfas
+    - blog
+    - website
+    - I work for Clarity Innovations.
 ---
 
 # Hello My Name Is Frank

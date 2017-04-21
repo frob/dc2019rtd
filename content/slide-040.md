@@ -1,27 +1,28 @@
 ---
   notes:
-  - Traditional LMS/Course schema
-    - Curriculum or Lesson plan
-      - Unit or Module
-        - Lesson/Project/Assessment/Mini-lessons
-          - Standards/Topical
-          - Often a curriculum uses a Backwards Design philosophy
-          - 5e's
-            - Engage
-            - Explore
-            - Explain
-            - Elaborate
-            - Evaluate
-          - LMS Lesson Goals
-            - Activate Prior knowledge
-            - Modeling or Teaching
-            - Practice
-            - Application
-            - Assessment
-  - Our custom LMS is structured as
-    - module -> menu
-      - segments -> nodes
-        - components -> paragraphs items
+    - Site Features
+    - Traditional LMS
+      - Collection of Curriculum or Lesson plans
+        - Collection of Unit or Module
+          - Collection of Lesson/Project/Assessment/Mini-lessons
+            - Curriculum Designer will often use a Backwards Design philosophy
+            - Starts Standards/Topical they with to teach
+            - Using the 5 e's
+              - Engage
+              - Explore
+              - Explain
+              - Elaborate
+              - Evaluate
+            - Thus Goals for Lesson Plan Features
+              - Activate Prior knowledge
+              - Modeling or Teaching
+              - Practice
+              - Application
+              - Assessment
+    - Our custom LMS is structured as
+      - module -> menu
+        - segments -> nodes
+          - components -> paragraphs items
 ---
 
 ### LMS Features
