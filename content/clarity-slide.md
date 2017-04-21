@@ -7,4 +7,6 @@
 
 ![Clarity Innovations Logo](/content/images/cilogo.jpg)
 
+![](/content/images/cilogo.jpg)
+
 ![New Perspectives Online Screenshot](/content/images/p2s2-screens/screenshot.png)
