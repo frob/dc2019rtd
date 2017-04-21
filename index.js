@@ -13,6 +13,15 @@ const md = require('markdown-it')()
         return '</aside>';
       }
     }
+  })
+  .use(require('markdown-it-container'), 'section', {
+    render: function (tokens, idx) {
+      if (tokens[idx].info.trim() === 'section') {
+        return '<section>';
+      } else {
+        return '</section>';
+      }
+    }
   });
 const fm = require('front-matter');
 const dpm = console.log;
