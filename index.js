@@ -7,17 +7,32 @@ const md = require('markdown-it')()
   .use(require('markdown-it-deflist'))
   .use(require('markdown-it-container'), 'notes', {
     render: function (tokens, idx) {
-      if (tokens[idx].info.trim() === 'notes') {
+      if (tokens[idx].nesting === 1) {
         return '<aside class="notes">';
       } else {
         return '</aside>';
       }
     }
   })
-  .use(require('markdown-it-container'), 'section', {
+  .use(require('markdown-it-container'), 'slide', {
     render: function (tokens, idx) {
-      if (tokens[idx].info.trim() === 'section') {
-        return '<section>';
+      if (tokens[idx].nesting === 1) {
+        return '<section data-transition="slide">';
+      } else {
+        return '</section>';
+      }
+    }
+  })
+  .use(require('markdown-it-container'), 'section', {
+    validate: function (params) {
+      dpm(params.trim().match(/^section\s+(.*)$/));
+      return params.trim().match(/^section\s+(.*)$/);
+    },
+    render: function (tokens, idx) {
+      if (tokens[idx].nesting === 1) {
+        const attributes = tokens[idx].info.trim().match(/^section\s+(.*)$/);
+
+        return '<section ' + attributes[1] + '>';
       } else {
         return '</section>';
       }
