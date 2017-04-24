@@ -17,10 +17,8 @@
 
 ## Custom LMS Architecture
 
-<dl>
-  <dt>Learning Management System</dt>
-  <dd>An LMS is software that allows for the organization and delivery of courses or training programs.</dd>
-</dl>
+Learning Management System
+  ~ An LMS is software that allows for the organization and delivery of courses or training programs.
 
 ### Traditional LMS/Course schema
 
