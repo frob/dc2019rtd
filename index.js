@@ -12,7 +12,8 @@ const md = require('markdown-it')()
       } else {
         return '</aside>';
       }
-    }
+    },
+    marker: ">"
   })
   .use(require('markdown-it-container'), 'slide', {
     render: function (tokens, idx) {
@@ -25,7 +26,6 @@ const md = require('markdown-it')()
   })
   .use(require('markdown-it-container'), 'section', {
     validate: function (params) {
-      dpm(params.trim().match(/^section\s+(.*)$/));
       return params.trim().match(/^section\s+(.*)$/);
     },
     render: function (tokens, idx) {
@@ -41,13 +41,14 @@ const md = require('markdown-it')()
 const fm = require('front-matter');
 const dpm = console.log;
 
-const outline = yaml.safeLoad(fs.readFileSync('./outline.yml', 'utf8'));
+var outline = yaml.safeLoad(fs.readFileSync('./outline.yml', 'utf8'));
 
-const content = outline.map(loadContent);
+const content = outline.slides.map(loadContent);
+outline.slides = content;
 
 const compiledFunction = pug.compileFile('index.pug');
 
-fs.writeFile('index.html', compiledFunction({'outline': content}), function(err) {
+fs.writeFile('index.html', compiledFunction({'outline': outline}), function(err) {
   if (err) {
     return console.log(err);
   }
