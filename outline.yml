@@ -1,25 +1,29 @@
 ---
-  - introduction.md
-  - clarity-slide.md
-  - slide-010.md # 01 - Prolog - Outline
-  - slide-020.md # 02 - Why look at Drupal 8
-  - slide-030.md # 03 - Custom LMS Drupal 7 architecture
-  - slide-040.md # 04     - Basic Drupal architecture
-  - slide-050.md # 05       - Entities
-  - slide-060.md # 06   - Features
-  - slide-070.md # 07     - Modules used & Modern Drupal 7 site building
-  - slide-075.md # 075    - A Word on blocks
-  - slide-080.md # 08   - Content strategy
-  - slide-090.md # 09   - Custom development
-  - slide-100.md # 10 - Considerations Building a LMS with Drupal 8
-  - slide-110.md # 11   - Architectural differences
-  - slide-120.md # 12   - UI Changes
-  - slide-130.md # 13   - Module availability
-  - slide-140.md # 14   - Specifically What needs to change
-  # 15     - Architecture
-  # 16     - Content strategy
-  - slide-170.md # 17     - Custom Development
-  - slide-180.md # 18 - Conclusion
+  meta:
+    title: re-architecting with drupal 8
+    author: Frank Robert Anderson
+  slides:
+    - introduction.md
+    - clarity-slide.md
+    - slide-010.md # 01 - Prolog - Outline
+    - slide-020.md # 02 - Why look at Drupal 8
+    - slide-030.md # 03 - Custom LMS Drupal 7 architecture
+    - slide-040.md # 04     - Basic Drupal architecture
+    - slide-050.md # 05       - Entities
+    - slide-060.md # 06   - Features
+    - slide-070.md # 07     - Modules used & Modern Drupal 7 site building
+    - slide-075.md # 075    - A Word on blocks
+    - slide-080.md # 08   - Content strategy
+    - slide-090.md # 09   - Custom development
+    - slide-100.md # 10 - Considerations Building a LMS with Drupal 8
+    - slide-110.md # 11   - Architectural differences
+    - slide-120.md # 12   - UI Changes
+    - slide-130.md # 13   - Module availability
+    - slide-140.md # 14   - Specifically What needs to change
+    # 15     - Architecture
+    # 16     - Content strategy
+    - slide-170.md # 17     - Custom Development
+    - slide-180.md # 18 - Conclusion
   # 19 - Appendix
   #
   # - introduction.md
