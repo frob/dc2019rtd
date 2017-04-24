@@ -4,6 +4,9 @@
   "description": "Drupal Con NA 2017 Drupal 8 Architechture Session",
   "main": "index.js",
   "scripts": {
+    "compile": "node index.js && cp -r content node_modules/reveal.js/ && cp index.html node_modules/reveal.js/",
+    "start": "cd node_modules/reveal.js/ && npm start; cd ../..",
+    "back": "cd ../..",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
