@@ -1,12 +1,44 @@
 html
   head
-    link(rel="stylesheet" href="bower_components/reveal-js/css/reveal.css")
-    link(rel="stylesheet" href="bower_components/reveal-js/css/theme/blood.css")
+    meta(charset="utf8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+
+    title= outline.meta.title
+
+    link(rel="stylesheet" href="/css/reveal.css")
+    link(rel="stylesheet" href="/css/theme/black.css")
+
+    <!-- Theme used for syntax highlighting of code -->
+    link(rel="stylesheet" href="/lib/css/zenburn.css")
+
+    <!-- Printing and PDF exports -->
+    script.
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+
   body
     div.reveal
       div.slides
-        each item in outline
+        each item in outline.slides
           section!= item.body
-      script(src="bower_components/reveal-js/js/reveal.min.js")
+
+      script(src="/bower_components/reveal-js/lib/js/head.min.js")
+      script(src="/bower_components/reveal-js/js/reveal.js")
+
+      script(src="/lib/js/head.min.js")
+      script(src="/js/reveal.js")
+
       script.
-          Reveal.initialize();
+        Reveal.initialize({
+          history: true,
+          // More info https://github.com/hakimel/reveal.js#dependencies
+          dependencies: [
+            { src: 'plugin/markdown/marked.js' },
+            { src: 'plugin/markdown/markdown.js' },
+            { src: 'plugin/notes/notes.js', async: true },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+          ]
+        });
