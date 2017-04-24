@@ -17,15 +17,47 @@
     - By the end of this talk I want all of us to go from "I will take the ring to Mordor" to "I'm going on an adventure"
 ---
 
+::: slide
+
 ## Why do this?
+
+>>> notes
+    - Why
+    - The big question is D8 or D7, this is a question that I have to ask myself every time I am asked to do an estimate.
+    - How do we pick which version of Drupal to use?
+    - Let me **GET THIS OUT THE WAY** I will not be going over hard numbers for building with one version over the other. I will give you the only answer that I can give knowing what I know about your project's requirements. IT DEPENDS.
+>>>
+
+:::
+
+::: slide
 
  - I create with Drupal 7.
  - I want to create with Drupal 8.
  - I want to know the differences between creating with Drupal 7 vs 8.
  - I would like to know how I can leverage the new features of Drupal 8 in complicated information systems.
 
+>>> notes
+     - I create with Drupal 7.
+     - I want to create with Drupal 8.
+     - I want to know the differences between creating with Drupal 7 vs 8.
+     - I would like to know how I can leverage the new features of Drupal 8 in complicated information systems.
+>>>
+
+:::
+
+::: slide
+
 Lets go from:
+
 ![Frame from LOTR - I will take the ring to Mordor](http://www.andimasexaholic.com/wp-content/uploads/2016/11/wp-1479564626172.jpg "I will take the ring to Mordor, Though I do not know the way.")
 
+:::
+
+::: slide
+
 To:
+
 ![Frame from the movie the hobbit - I am going on an adventure](http://i3.kym-cdn.com/entries/icons/original/000/013/208/a.jpg "I'm going on an adventure")
+
+:::
