@@ -29,7 +29,7 @@ Entities are things in Drupal; things do not have to be nodes.
   - Entities are things in Drupal, starting in drupal 7 we got content entities.
   - In Drupal 6 custom things where typically nodes or totally custom
   - In Drupal 7 the entity-field system brought the CCK into core without making everything a node
-  - Drupal 8 has a fully fledged entity api which is derived from the capabilities of the contrib entity api module for drupal 7. Now that Drupal is using semver, over time more and more functionality can be added to subsequent versions of drupal 8 and the entity api can only get more robust.
+  - Drupal 8 has a fully fledged entity api which is derived from the capabilities of the contrib entity api module for drupal 7.
   - Users, Taxonomy Terms, and Nodes, are all Entities
 
 >>>

@@ -35,7 +35,7 @@
 ### Architectural Differences
 
  - Configuration Entities
- - Quick Edit
+ - Semantic Versioning
  - Blocks
  - View Modes
  - New field types (entity reference, link, telephone)
