@@ -19,9 +19,9 @@
     - Properties are stored on the entity's table and fields are stored in their own table.
 ---
 
-### Entities
-
 ::: slide
+
+### Entities
 
 Entities are things in Drupal; things do not have to be nodes.
 
@@ -37,6 +37,8 @@ Entities are things in Drupal; things do not have to be nodes.
 :::
 
 ::: slide
+
+#### Bundles
 
  - A bundle is a collection of fields instances on an Entity
  - A field instance is a place for complex data in a Entity Bundle
@@ -55,6 +57,8 @@ Entities are things in Drupal; things do not have to be nodes.
 >>>
 
 ::: slide
+
+#### Properties
 
 Properties are linked to an Entity, such as Node. Fields are linked to the Bundle, such as Content Type.
 

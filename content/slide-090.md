@@ -38,7 +38,6 @@
         call_user_func("_component_{$bundle}_alter", array(&$build));
       }
     }
-  }
 ```
 
 >>> notes
@@ -63,14 +62,11 @@ function _component_text_response_alter(&$build) {
     $entity_form_name = 'text_submissions';
     $component_id = $build[0]['#entity']->item_id;
     $entity = $build[0]['#entity'];
-    $form = _npo_get_entityform(entityform_empty_load($entity_form_name), array('component_id' => $component_id, 'entity' => $entity));
+    $form = _get_entityform(entityform_empty_load($entity_form_name), array('component_id' => $component_id, 'entity' => $entity));
     $form['field_component_submission']['#attributes']['class'][] = 'element-invisible';
-    $form['field_component_submission']['#attributes']['data-entityform-id'] = $build[0]['#entity']->item_id;
-    $form['field_text_response_submission']['#attributes']['class'][] = 'component-text-response-textarea';
-    $form['field_text_response_submission']['#attributes']['class'][] = 'component-input';
+    // ... Other Stuff ...
     $form['field_text_response_submission']['#attributes']['class'][] = 'component-input-no-label';
     $form_rendered = drupal_render($form);
-    // $build must be an array so that it can be passed by reference.
     $build[0][] = array(
       '#type' => 'markup',
       '#markup' => $form_rendered,

@@ -6,6 +6,7 @@
       - EntityForm is not supported on Drupal 8
       - There is a discussion about whither or not this module is necessary. I of corse believe the module is necessary. However, this doesn't make the module stable today. The module works well enough for this experiment, but if this where a full client project we would have to explore some options.
         - Find an alternative
+          - Custom Entities are an option
           - Comment module
           - Contact module extras
           - Relation module
@@ -41,16 +42,18 @@
 - Big problem
   - EntityForm is not supported on Drupal 8
     - Find an alternative
+      - Custom Entity
       - Comment module
       - Contact module extras
       - Relation module
-    - Fund the development of a stable release
+      - Fund the development of a stable release
 
 >>> notes
  - Big problem with my re-architecture exercise.
    - EntityForm is not supported on Drupal 8
    - There is a discussion about whither or not this module is necessary. I of corse believe the module is necessary. However, this doesn't make the module stable today. The module works well enough for this experiment, but if this where a full client project we would have to explore some options.
      - Find an alternative
+       - Custom Entities are an option
        - Comment module
        - Contact module extras
        - Relation module

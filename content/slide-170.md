@@ -74,7 +74,6 @@ But all good!
 *Drupal 8 version*:
 
 ```php
-
 // This creates a new eform submission.
 $eform_submission = \Drupal::entityTypeManager()->getStorage('eform_submission')->create(['type' => 'multiple_choice_question']);
 // This loads an existing eform submission.
@@ -83,6 +82,7 @@ $submitted_eform = \Drupal::entityTypeManager()->getStorage('eform_submission')-
 $form = \Drupal::service('entity.form_builder')->getForm($submitted_eform);
 // Then we append it to the render array.
 $build[] = $form;
+
 ```
 
 >>> notes

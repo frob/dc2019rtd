@@ -22,13 +22,8 @@
 
 ::: slide
 
- - Prolog
  - Why look at Drupal 8
  - Custom LMS Drupal 7 architecture
-   - Features
-   - Content strategy
-   - Modules used
-   - Custom development
  - Considerations Building a with Drupal 8
    - Architectural differences
    - UI Changes
@@ -36,6 +31,8 @@
    - Specifically What needs to change
  - Conclusion <-- **Achievement unlocked**
  - Appendix
+
+![Achievement Unlocked](https://s3.amazonaws.com/achgen360/t/FBZ5Ax5Q.png)
 
 :::
 
