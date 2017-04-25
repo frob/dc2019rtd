@@ -9,15 +9,25 @@
     - Good news, there are fewer changes for site builders who are coming from Drupal 7 to worry about. Bad news is for someone coming from not Drupal the perceived Drupal learning curve could be intimidating.
 ---
 
+::: slide
+
 ### UI Changes
 
 **Good News!** Not much has changed significantly in the UI. I guess that could be bad new too.
+
+:::
+
+::: slide
 
 #### Operations
 
 ![](/content/images/opdropdown.png)
 
 New Drop down thingy for selecting what we are doing to a thing.
+
+:::
+
+::: slide
 
 #### Form Display Settings
 
@@ -27,6 +37,12 @@ Multiple entity form settings on the Manage form display page, this includes fie
 
 The "Manage Fields" page is now only about managing what fields are on a entity/bundle and how they are stored.
 
+:::
+
+::: slide
+
 #### Good news about learning curves
 
 !(The Drupal learning curve)[http://www.freshform.com/blog/wp-content/uploads/2013/02/learning-curve.png]
+
+:::

@@ -18,6 +18,8 @@
     -
 ---
 
+::: slide
+
 ## Considerations Building a LMS with Drupal 8
 
   - Architectural differences
@@ -28,6 +30,10 @@
       - Custom Development
         - Content strategy
 
+:::
+
+::: slide
+
 ### General Drupal 8 Considerations
 
   - Setup the devel module
@@ -35,3 +41,5 @@
   - Modules cannot be disabled
   - Enable Developer Mode
   - Beware of online sources
+
+:::

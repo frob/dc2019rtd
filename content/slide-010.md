@@ -37,7 +37,7 @@
    - Content strategy
    - Modules used
    - Custom development
- - Considerations Building a with Drupal 8
+ - Considerations Building with Drupal 8
    - Architectural differences
    - UI Changes
    - Module availability
@@ -53,7 +53,7 @@
     - Content strategy
     - Modules used
     - Custom development
-  - Considerations Building a with Drupal 8
+  - Considerations Building with Drupal 8
     - Architectural differences
     - UI Changes
     - Module availability

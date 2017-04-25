@@ -22,10 +22,10 @@
 ## Why do this?
 
 >>> notes
-    - Why
-    - The big question is D8 or D7, this is a question that I have to ask myself every time I am asked to do an estimate.
-    - How do we pick which version of Drupal to use?
-    - Let me **GET THIS OUT THE WAY** I will not be going over hard numbers for building with one version over the other. I will give you the only answer that I can give knowing what I know about your project's requirements. IT DEPENDS.
+- Why
+- The big question is D8 or D7, this is a question that I have to ask myself every time I am asked to do an estimate.
+- How do we pick which version of Drupal to use?
+- Let me **GET THIS OUT THE WAY** I will not be going over hard numbers for building with one version over the other. I will give you the only answer that I can give knowing what I know about your project's requirements. IT DEPENDS.
 >>>
 
 :::
@@ -38,10 +38,10 @@
  - I would like to know how I can leverage the new features of Drupal 8 in complicated information systems.
 
 >>> notes
-     - I create with Drupal 7.
-     - I want to create with Drupal 8.
-     - I want to know the differences between creating with Drupal 7 vs 8.
-     - I would like to know how I can leverage the new features of Drupal 8 in complicated information systems.
+ - I create with Drupal 7.
+ - I want to create with Drupal 8.
+ - I want to know the differences between creating with Drupal 7 vs 8.
+ - I would like to know how I can leverage the new features of Drupal 8 in complicated information systems.
 >>>
 
 :::

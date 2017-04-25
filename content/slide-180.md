@@ -18,7 +18,9 @@
     - Don't take things so seriously
 ---
 
-## Prolog
+## Conclusion
+
+::: slide
 
  - Prolog
  - Why look at Drupal 8
@@ -35,5 +37,10 @@
  - Conclusion <-- **Achievement unlocked**
  - Appendix
 
+:::
+
+::: slide
 
 ![Don't take things so seriously ](https://nicspaull.files.wordpress.com/2013/10/you-are-here.jpg "You are here in the galaxy")
+
+:::

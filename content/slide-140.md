@@ -13,9 +13,15 @@
 
 ---
 
+::: slide
+
 ### Specifically What needs to change
 
 **Not Much**
+
+:::
+
+::: slide
 
 #### Architecture & Content Strategy
 
@@ -26,6 +32,12 @@
  - Same Architecture
  - Same Strategy
 
+:::
+
+::: slide
+
 #### Custom Development
 
 **Biggest Changes**
+
+:::

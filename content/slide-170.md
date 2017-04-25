@@ -21,9 +21,15 @@
     - Mind Blown
 ---
 
+::: slide
+
 ## Custom Development
 
 This is where the largest changes where made.
+
+:::
+
+::: slide
 
 ### Not Much
 
@@ -32,9 +38,17 @@ This is where the largest changes where made.
 
 ![Incoming Transmission](http://i.imgur.com/vj1IG.gif)
 
+:::
+
+::: slide
+
 ### Okay, really lots
 
 But all good!
+
+:::
+
+::: slide
 
 *Drupal 8 version*:
 
@@ -50,8 +64,14 @@ $form = \Drupal::service('entity.form_builder')->getForm($submitted_eform);
 $build[] = $form;
 ```
 
+:::
+
+::: slide
+
  - No more Drupal 7 non-existent entity api
  - Drupal 8 has intelligent use of OOP that makes site building easier
  - Over 100 lines of code in reduced to under 10
 
 ![Incoming Rainbow](http://i.imgur.com/KP6cR.gif)
+
+:::

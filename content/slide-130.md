@@ -22,7 +22,13 @@
 
 ### Module Availability
 
+::: slide
+
 ![elephant in the room](http://68.media.tumblr.com/06a363a56c82b78b55dd9dc52df72174/tumblr_o2k1xwmoN91ritmyro1_500.jpg)
+
+:::
+
+::: slide
 
 - Big problem
   - EntityForm is not supported on Drupal 8
@@ -31,9 +37,20 @@
       - Contact module extras
       - Relation module
     - Fund the development of a stable release
+
+:::
+
+::: slide
+
 - Second problem
   - Paragraphs doesn't want me to reference paragraphs
   - It is possible, but requires use of the EXPERIMENTAL field widget.
   - In this case the problem wasn't the module but my own unfamiliarity and over confidence. The answer was staring me in the face.
 
+:::
+
+::: slide
+
 ![Baby Elephant](https://cdn-images-1.medium.com/max/800/1*YDxL6IOZW0LYTPLnggSvlQ.gif)
+
+:::

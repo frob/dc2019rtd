@@ -29,6 +29,8 @@
     - Testing infrastructure should ensure backward compatible changes are backward compatible. The DA infrastructure team has made this a reality..
 ---
 
+::: slide
+
 ### Architectural Differences
 
  - Configuration Entities
@@ -36,6 +38,10 @@
  - Blocks
  - View Modes
  - New field types (entity reference, link, telephone)
+
+:::
+
+::: slide
 
 ### Things to google (many have been backported to Drupal 7)
    - Composer support
@@ -46,3 +52,5 @@
    - Experimental Core Modules
     - Content Moderation
     - etc...
+
+:::

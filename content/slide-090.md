@@ -14,7 +14,18 @@
       - An interesting thing about saving a response is, only after it is saved can we make the paragraphs item sharable. Then after it is shared only then can we make show the shared responses. All of these things required heavy development for Drupal 7, and will likely also require lots of custom work for Drupal 8 too.
 ---
 
+::: slide
+
 ### Custom Development
+
+>>> notes
+ - Custom Development
+ - The meat of how we are putting this together is in the hook_entity_view_alter implementation and the hook_form_alter implementation.
+>>>
+
+:::
+
+::: slide
 
 #### Pass the build to custom function
 
@@ -29,6 +40,16 @@
     }
   }
 ```
+
+>>> notes
+ - Pass the build to custom function.
+ - Remember we used the bundle type machine names to add the correct entity form types? We do that with call_user_func which calls a function based on the name we give it. We check beforehand if the function exists, this way it is extensible without having to modify too much existing code. So if we want to add another interactive element we can do so without modifying anything to do with our current interactive elements.
+
+>>>
+
+:::
+
+::: slide
 
 #### Text response callback
 
@@ -60,3 +81,15 @@ function _component_text_response_alter(&$build) {
   }
 }
 ```
+
+>>> notes
+ - Text response callback
+ - In the case of the text response this checks for a valid callback and runs this code to include the entity form.
+ - Then in the form_alter we change the actual form options or the text area label to use the correct text.
+ - Things get complicated at this point, because ajax.
+   - We have to ajaxify each of the paragraph items. I'm not going to go into code here because that would just be boring, and it is better documented elsewhere.
+   - An interesting thing about saving a response is, only after it is saved can we make the paragraphs item sharable. Then after it is shared only then can we make show the shared responses. All of these things required heavy development for Drupal 7, and will likely also require lots of custom work for Drupal 8 too.
+
+>>>
+
+:::
