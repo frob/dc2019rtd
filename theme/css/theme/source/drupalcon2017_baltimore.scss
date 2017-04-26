@@ -1,0 +1,245 @@
+/**
+ * DrupalaCon 2017 - Baltimore Core CSS
+ */
+
+
+/**
+ * variables
+ */
+$font-merri:      'Merriweather', Georgia, Times, Times New Roman, serif;
+$font-lato:       'Lato', Arial, Helvetica Neue, Helvetica, sans-serif;
+
+$heading-font:    $font-merri;
+$body-font:       $font-lato;
+
+$color-chenin:    #e0ca7d;
+$color-chenin-hover: #b7a565;
+$color-white:     #fff;
+$color-bigstone:  #172a3c;
+$color-persian:   #009999;
+
+/**
+ * base styles
+ */
+ ::selection {
+  color: $color-white;
+  background: $color-bigstone;
+  text-shadow: none;
+}
+
+.reveal {
+  font-family: $body-font; 
+  color: $color-white;
+  line-height: 1.45;
+
+  a {
+    color: $color-chenin;
+    &:hover,
+    &:focus{
+      color: $color-chenin-hover;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-family: $heading-font;
+    color: $color-white;
+    word-wrap: break-word;
+  }
+
+  img {
+    display: inline-block;
+    margin: 0 0 20px 0;
+  }
+
+  h1 { font-size: 55px; margin: 0 0 48px 0; color: $color-chenin; }
+  h2 { font-size: 35px; margin: 0 0 38px 0; }
+  h3 { font-size: 25px; margin: 0 0 28px 0; }
+  h3 { font-size: 20px; margin: 0 0 28px 0; }
+  h4 { font-size: 18px; margin: 0 0 28px 0; }
+  h5 { font-size: 17px; margin: 0 0 20px 0; }
+  h6 { font-size: 16px; margin: 0 0 20px 0; }
+
+  p { margin: 0 0 20px 0; }
+
+  ul, ol {
+    margin: 0 0 20px 20px;
+    list-style-position: inside;
+    li {
+      margin: 0 0 20px 0;
+      ul, ol {
+        margin: 20px 0 0 20px;
+      }
+    }
+  }
+
+  strong, b {
+    font-weight: bold;
+  }
+
+  em { font-style: italic; }
+
+  dt { font-weight: bold; }
+
+  dd { margin-left: 40px; }
+
+  q { font-style: italic; }
+
+  pre {
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 20px auto;
+    text-align: left;
+    font-size: 1em;
+    font-family: monospace;
+    line-height: 1.2em;
+    word-wrap: break-word;
+  }
+
+  code { font-family: monospace; }
+
+  pre code {
+    display: block;
+    padding: 5px;
+    overflow: auto;
+    max-height: 400px;
+    word-wrap: normal;
+  }
+
+  table {
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    th {
+      font-weight: bold;
+    }
+    th, td {
+      text-align: left;
+      padding: 0.2em 0.5em 0.2em 0.5em;
+      border-bottom: 1px solid;
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
+  }
+
+  sup { vertical-align: super; }
+
+  sub { vertical-align: sub; }
+
+  small {
+    display: inline-block;
+    font-size: 0.6em;
+    line-height: 1.2em;
+    vertical-align: top;
+    * {
+      vertical-align: top;
+    }
+  }
+
+  .logo {
+    max-width: 314px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 0 0 72px 0;
+  }
+  .logo-small {
+    max-width: 218px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 0 0 72px 0;
+  }
+
+  .align-left {
+    text-align: left;
+  }
+
+  .heading-space {
+    margin-top: 100px;
+  }
+
+  .hashtag {
+    font-size: 35px;
+    color: $color-chenin;
+    font-family: $font-merri;
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .body-color-dark {
+    color: $color-bigstone;
+
+    h1 { color: $color-bigstone; }
+  }
+
+  .columns {
+    font-size: 0;
+    
+    &.columns-2 {
+      .column {
+        font-size: 16px;
+        width: 46%;
+        padding-left: 2%;
+        padding-right: 2%;
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+      }
+    }
+  }
+}
+
+
+/**
+ * backgrounds
+ */
+html.baltimore-city body {
+  background:url("../../img/bg-baltimore-city.jpg") no-repeat 0 0; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html.baltimore-bird body {
+  background:url("../../img/bg-baltimore-bird.jpg") no-repeat 0 0; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  a {
+    color: $color-persian;
+    &:hover,
+    &:focus{
+      color: $color-bigstone;
+    }
+  }
+}
+html.baltimore-docks body {
+  background:url("../../img/bg-baltimore-docks.jpg") no-repeat 0 0; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html.baltimore-person body {
+  background:url("../../img/bg-baltimore-person.jpg") no-repeat 0 0; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html.baltimore-promenade body {
+  background:url("../../img/bg-baltimore-promenade.jpg") no-repeat 0 0; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
