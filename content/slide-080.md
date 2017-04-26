@@ -54,7 +54,7 @@ Three where interactive
 
 Text response
 
-![](/content/images/p2s2-screens/dinn-7-drag-2.gif)
+![](/content/images/p2s2-screens/text-response.gif)
 
 >>> notes
 >>>
@@ -65,7 +65,7 @@ Text response
 
 Checkbox list
 
-![](/content/images/p2s2-screens/org-5-mult-check.gif)
+![](/content/images/p2s2-screens/checkbox.gif)
 
 >>> notes
 >>>
@@ -76,7 +76,7 @@ Checkbox list
 
 Drag and Drop
 
-![](/content/images/p2s2-screens/dinn-7-drag.gif)
+![](/content/images/p2s2-screens/dragndrop.gif)
 
 >>> notes
 >>>
