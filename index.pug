@@ -25,6 +25,11 @@ html
         each item in outline.slides
           section!= item.body
 
+      div.branding
+        div
+          img(src="/content/images/cilogo.png")
+          img(src="/content/images/dclogo.png")
+
     script(src="/bower_components/reveal-js/lib/js/head.min.js")
     script(src="/bower_components/reveal-js/js/reveal.js")
 
@@ -34,6 +39,7 @@ html
     script.
       Reveal.initialize({
         history: true,
+        controls: false,
         // More info https://github.com/hakimel/reveal.js#dependencies
         dependencies: [
           { src: 'plugin/markdown/marked.js' },

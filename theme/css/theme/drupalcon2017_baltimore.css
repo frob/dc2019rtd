@@ -8,57 +8,92 @@
  * base styles
  */
 ::selection {
-  color: #fff;
+  color: #54575A;
   background: #172a3c;
   text-shadow: none; }
 
+body {
+  font-size: 24px;
+}
+
+body .reveal .branding {
+  background-color: #54575A;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 99px;
+}
+
+body .reveal .branding > div {
+  display: block;
+  padding: 33px;
+  height: 33px;
+}
+
+body .reveal .branding img[src="/content/images/cilogo.png"] {
+  height: 100%;
+  width: auto;
+  float: left;
+  margin: 0;
+}
+
+body .reveal .branding img[src="/content/images/dclogo.png"] {
+  height: 140%;
+  width: auto;
+  float: right;
+  /*margin-top: -6%;*/
+}
+
 .reveal {
-  font-family: "Lato", Arial, Helvetica Neue, Helvetica, sans-serif;
-  color: #fff;
+  font-family: "Open Sans", Arial, Helvetica Neue, Helvetica, sans-serif;
+  color: #54575A;
   line-height: 1.45; }
   .reveal a {
-    color: #e0ca7d; }
+    color: #00728D; }
     .reveal a:hover, .reveal a:focus {
-      color: #b7a565; }
+      color: #007788; }
   .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-    font-weight: normal;
-    font-family: "Merriweather", Georgia, Times, Times New Roman, serif;
-    color: #fff;
+    font-weight: bold;
+    color: #54575A;
     word-wrap: break-word; }
   .reveal img {
     display: inline-block;
+    width: 75%;
+    height: auto;
+    border: none;
     margin: 0 0 20px 0; }
   .reveal h1 {
-    font-size: 55px;
-    margin: 0 0 48px 0;
-    color: #e0ca7d; }
+    width: 70%;
+    font-size: 2.5rem;
+    margin: 0 auto 48px auto;
+    color: #CEB964; }
   .reveal h2 {
-    font-size: 35px;
+    font-size: 2.1rempx;
     margin: 0 0 38px 0; }
   .reveal h3 {
-    font-size: 25px;
+    font-size: 1.8rem;
     margin: 0 0 28px 0; }
   .reveal h3 {
-    font-size: 20px;
+    font-size: 1.5rem;
     margin: 0 0 28px 0; }
   .reveal h4 {
-    font-size: 18px;
+    font-size: 1.25rem;
     margin: 0 0 28px 0; }
   .reveal h5 {
-    font-size: 17px;
+    font-size: 1rem;
     margin: 0 0 20px 0; }
   .reveal h6 {
-    font-size: 16px;
+    font-size: 1rem;
     margin: 0 0 20px 0; }
   .reveal p {
     margin: 0 0 20px 0; }
   .reveal ul, .reveal ol {
-    margin: 0 0 20px 20px;
+    margin: 0 .5em;
     list-style-position: inside; }
     .reveal ul li, .reveal ol li {
-      margin: 0 0 20px 0; }
+      margin: 0 0 .25em 0; }
       .reveal ul li ul, .reveal ul li ol, .reveal ol li ul, .reveal ol li ol {
-        margin: 20px 0 0 20px; }
+        margin: 0; }
   .reveal strong, .reveal b {
     font-weight: bold; }
   .reveal em {
@@ -126,10 +161,6 @@
     text-align: left; }
   .reveal .heading-space {
     margin-top: 100px; }
-  .reveal .hashtag {
-    font-size: 35px;
-    color: #e0ca7d;
-    font-family: "Merriweather", Georgia, Times, Times New Roman, serif; }
   .reveal .bottom-right {
     position: absolute;
     bottom: 0;
@@ -152,6 +183,25 @@
 /**
  * backgrounds
  */
+html body:before {
+  content: "";
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  background-color: #00728D;
+  position: absolute;
+}
+html body:after {
+  content: "";
+  width: 100%;
+  height: 40px;
+  top: 0;
+  position: absolute;
+  -webkit-mask-box-image: url(/content/images/bg-paper-tear-white-bottom.png);
+  background-color: white;
+}
+
 html.baltimore-city body {
   background: url("../../img/bg-baltimore-city.jpg") no-repeat 0 0;
   -webkit-background-size: cover;

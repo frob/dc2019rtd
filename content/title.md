@@ -12,4 +12,4 @@
 
 By frob
 
-[bitly slide likn]()
+[bitly slide link]()
