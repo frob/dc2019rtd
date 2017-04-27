@@ -18,8 +18,6 @@
     - Don't take things so seriously
 ---
 
-## Conclusion
-
 ::: slide
 
  - Why look at Drupal 8
@@ -30,7 +28,6 @@
    - Module availability
    - Specifically What needs to change
  - Conclusion <-- **Achievement unlocked**
- - Appendix
 
 ![Achievement Unlocked](https://s3.amazonaws.com/achgen360/t/FBZ5Ax5Q.png)
 

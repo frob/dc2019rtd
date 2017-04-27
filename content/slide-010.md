@@ -18,7 +18,7 @@
 
 ::: slide
 
-## Prolog
+## In case you are wondering
 
 ![You are here in the galaxy](https://nicspaull.files.wordpress.com/2013/10/you-are-here.jpg "You are here in the galaxy")
 
@@ -42,8 +42,6 @@
    - UI Changes
    - Module availability
    - Specifically What needs to change
- - Conclusion
- - Appendix
 
 >>> notes
   - Prolog <-- **You are here in the session**
@@ -58,8 +56,6 @@
     - UI Changes
     - Module availability
     - Specifically What needs to change
-  - Conclusion
-  - Appendix
 >>>
 
 :::

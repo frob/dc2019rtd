@@ -23,9 +23,9 @@
     - So we do have an elephant, but it is just a baby elephant.
 ---
 
-### Module Availability
-
 ::: slide
+
+### Module Availability
 
 ![elephant in the room](http://68.media.tumblr.com/06a363a56c82b78b55dd9dc52df72174/tumblr_o2k1xwmoN91ritmyro1_500.jpg)
 

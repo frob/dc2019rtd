@@ -20,9 +20,9 @@
     - Speedboxes -- Allows us to check multiple checkboxes at the same time. Super useful for setting up permissions.
 ---
 
-## Drupal 7 Modules Used
-
 ::: slide
+
+## Drupal 7 Modules Used
 
 *[Frank's list of modern site building tools](https://www.frobiovox.com/posts/2015/09/22/modern-drupal7-site-building-tools.html)*
 

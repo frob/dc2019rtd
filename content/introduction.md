@@ -32,8 +32,7 @@
 
 I am a Christian, Father, and Technology Enthusiast.
 
- - _Online my name is_ frob (IRC, d.o, github)
- - _On Twitter I am_ frobdfas
- - _My Blog is_ www.frobiovox.com
- - _My (really old) Website is_ www.frankrobertanderson.com
+ - _Online my name is_ **frob** (IRC, d.o, github)
+ - _On Twitter I am_ **@frobdfas**
+ - _My Blog is_ [www.frobiovox.com](https://www.frobiovox.com)
  - _I work for_ Clarity Innovations Inc.

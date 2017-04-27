@@ -45,6 +45,7 @@
  - Configuration Entities
    - I am not going into detail about them other than to say generally that the configuration management initiative changed so much with regard to developing and deploying Drupal. All for the better. If you are committed to stick with the db-sync workflow, it still works with Drupal 8 but really learn as much as you can about configuration entities and what you can do with them. Really this could be a talk or two on this, and I don't have the time in this talk to do them justice.
    - I will say that configuration entities gives drupal a place other than a random variable to store configuration and keeps developers from having to manage a bunch of tables if they needed something more complex than a simple variable could offer.
+ - Do I need to talk about Semantic Versioning, everyone know about it?
  - Blocks
    - Blocks now function much like nodes insofar as they are full fledged entities with bundles and fields.
    - Blocks still have an Achilles heel in that they are both content and configuration. The content lives in the database and isn't easy to export and sync and the placement of the block is configuration and is easy to sync. This can lead to embarrassing deployment gaffs. Where the placement of a block that doesn't exist is possible. Here is a good article about avoiding that. http://valuebound.com/resources/blog/how-to-sync-blocks-between-different-environments-a-drupal-8-website

@@ -16,8 +16,7 @@
 
 :::
 
-::: section data-transition="slide-in fade-out"
-![](/content/images/cilogo.jpg)
+::: slide
 
 ![New Perspectives Online Screenshot](/content/images/p2s2-screens/screenshot.png)
 :::

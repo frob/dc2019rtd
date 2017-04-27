@@ -45,8 +45,6 @@ Multiple entity form settings on the Manage form display page, this includes fie
 
 ![](/content/images/manageformdisplay.png)
 
-The "Manage Fields" page is now only about managing what fields are on a entity/bundle and how they are stored.
-
 >>> notes
  - Another change you will find between D7 and D8 I have already hinted at with the Form View. If you have a alternate node form then you will find the option for editing that form view in "Manage Form Display" section. This also means that controls for the form widgets are configured on the form view display settings and not the "Manage Fields" page. Mange Fields is now entirely about the field and its storage.
 

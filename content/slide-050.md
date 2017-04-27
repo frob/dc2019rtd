@@ -38,7 +38,7 @@ Entities are things in Drupal; things do not have to be nodes.
 
 ::: slide
 
-#### Bundles
+#### Bundles and Fields
 
  - A bundle is a collection of fields instances on an Entity
  - A field instance is a place for complex data in a Entity Bundle
@@ -56,6 +56,8 @@ Entities are things in Drupal; things do not have to be nodes.
 
 >>>
 
+:::
+
 ::: slide
 
 #### Properties
@@ -67,6 +69,19 @@ Properties are stored on the entity's table and fields are stored in their own t
 >>> notes
   - Properties are linked to an Entity, such as Node. Fields are linked to the Bundle, such as Content Type.
   - Properties are stored on the entity's table and fields are stored in their own table.
+
+>>>
+
+:::
+
+::: slide
+
+#### Variables
+
+Variables are what Drupal 7 provides for configuration --when it isn't a custom table.
+
+>>> notes
+  - Variables are what Drupal 7 provides for configuration --when it isn't a custom table.
 
 >>>
 

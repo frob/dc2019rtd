@@ -62,6 +62,9 @@ body .reveal .branding img[src="/content/images/dclogo.png"] {
     height: auto;
     border: none;
     margin: 0 0 20px 0; }
+  .reveal img[alt="The Drupal learning curve"] {
+    max-height: 500px;
+  }
   .reveal h1 {
     width: 70%;
     font-size: 2.5rem;
@@ -88,12 +91,16 @@ body .reveal .branding img[src="/content/images/dclogo.png"] {
   .reveal p {
     margin: 0 0 20px 0; }
   .reveal ul, .reveal ol {
-    margin: 0 .5em;
-    list-style-position: inside; }
+    margin: 0 auto;
+    text-align: left;
+    width: 50%;
+    /*list-style-position: inside;*/ }
     .reveal ul li, .reveal ol li {
-      margin: 0 0 .25em 0; }
-      .reveal ul li ul, .reveal ul li ol, .reveal ol li ul, .reveal ol li ol {
-        margin: 0; }
+      margin: 0 0 .25em 0;
+      width: 100%; }
+      .reveal ul li > ul, .reveal ul li > ol, .reveal ol li > ul, .reveal ol li > ol {
+        margin: 0 .5em;
+        width: 100%; }
   .reveal strong, .reveal b {
     font-weight: bold; }
   .reveal em {
@@ -186,13 +193,14 @@ body .reveal .branding img[src="/content/images/dclogo.png"] {
 html body:before {
   content: "";
   width: 100%;
-  height: 40px;
+  height: 33px;
   position: absolute;
   top: 0;
   background-color: #00728D;
   position: absolute;
 }
-html body:after {
+
+/*html body:after {
   content: "";
   width: 100%;
   height: 40px;
@@ -200,7 +208,7 @@ html body:after {
   position: absolute;
   -webkit-mask-box-image: url(/content/images/bg-paper-tear-white-bottom.png);
   background-color: white;
-}
+}*/
 
 html.baltimore-city body {
   background: url("../../img/bg-baltimore-city.jpg") no-repeat 0 0;

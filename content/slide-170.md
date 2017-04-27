@@ -30,7 +30,6 @@ This is where the largest changes where made.
 >>> notes
  - Custom development
  - This is where the largest changes where made, but maybe not where it was expected.
- - In Drupal 7 we accomplished the HULK SMASH part, where we smash the form from the entity form into the display of the paragraphs item, with a hook_entity_view_alter implementation coupled with a hook_form_alter implementation. In Drupal 8 with its Object Oriented Architecture I was able to accomplish it in the exact same way.
 
 >>>
 
@@ -42,6 +41,15 @@ This is where the largest changes where made.
 
  - We still use hook_entity_view_alter
  - We still use hook_form_alter
+
+>>> notes
+ - In Drupal 7 we accomplished the HULK SMASH part, where we smash the form from the entity form into the display of the paragraphs item, with a hook_entity_view_alter implementation coupled with a hook_form_alter implementation. In Drupal 8 with its Object Oriented Architecture I was able to accomplish it in the exact same way.
+
+>>>
+
+:::
+
+::: slide
 
 ![Incoming Transmission](http://i.imgur.com/vj1IG.gif)
 
@@ -75,14 +83,17 @@ But all good!
 
 ```php
 // This creates a new eform submission.
-$eform_submission = \Drupal::entityTypeManager()->getStorage('eform_submission')->create(['type' => 'multiple_choice_question']);
+$eform_submission = \Drupal::entityTypeManager()
+  ->getStorage('eform_submission')
+  ->create(['type' => 'multiple_choice_question']);
 // This loads an existing eform submission.
-$submitted_eform = \Drupal::entityTypeManager()->getStorage('eform_submission')->load(2);
+$submitted_eform = \Drupal::entityTypeManager()
+  ->getStorage('eform_submission')->load(2);
 // Either way we build the form with a call to the entity.form_builder service.
-$form = \Drupal::service('entity.form_builder')->getForm($submitted_eform);
+$form = \Drupal::service('entity.form_builder')
+  ->getForm($submitted_eform);
 // Then we append it to the render array.
 $build[] = $form;
-
 ```
 
 >>> notes
@@ -97,14 +108,14 @@ $build[] = $form;
 
  - No more Drupal 7 non-existent entity api
  - Drupal 8 has intelligent use of OOP that makes site building easier
- - Over 100 lines of code in reduced to under 10
+ - Over 100 lines of code is reduced to under 10
 
 ![Incoming Rainbow](http://i.imgur.com/KP6cR.gif)
 
 >>> notes
  - No more Drupal 7 non-existent entity api
  - Drupal 8 has intelligent use of OOP that makes site building easier
- - Over 100 lines of code in reduced to under 10
+ - Over 100 lines of code is reduced to under 10
  - Mind Blown
 
 >>>
