@@ -1,4 +1,4 @@
-# DrupalCon Baltimore Presentation Rearchitechting for Drupal 8
+# DrupalCon Baltimore 2017: Rearchitecting for Drupal 8
 
 https://www.youtube.com/watch?v=en-nC4ZjdXo
 
