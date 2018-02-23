@@ -1,53 +1,33 @@
 ---
   meta:
-    title: re-architecting with drupal 8
+    title: Talk to me Drupal; Using Drupal to power a Voice App.
     author: Frank Robert Anderson
   slides:
-    - title.md
-    - slide-010.md # 01 - Prolog - Outline
-    - introduction.md
-    - clarity-slide.md
-    - slide-020.md # 02 - Why look at Drupal 8
-    - slide-030.md # 03 - Custom LMS Drupal 7 architecture
-    - slide-040.md # 04     - Basic Drupal architecture
-    - slide-050.md # 05       - Entities
-    - slide-060.md # 06   - Features
-    - slide-070.md # 07     - Modules used & Modern Drupal 7 site building
-    - slide-075.md # 075    - A Word on blocks
-    - slide-080.md # 08   - Content strategy
-    - slide-090.md # 09   - Custom development
-    - slide-100.md # 10 - Considerations Building a LMS with Drupal 8
-    - slide-110.md # 11   - Architectural differences
-    - slide-120.md # 12   - UI Changes
-    - slide-130.md # 13   - Module availability
-    - slide-140.md # 14   - Specifically What needs to change
-    # 15     - Architecture
-    # 16     - Content strategy
-    - slide-170.md # 17     - Custom Development
-    - slide-180.md # 18 - Conclusion
-    - sprint.md
-    - feedback.md
-  # 19 - Appendix
-  #
-  # - introduction.md
-  # - slide-010.md # - Outline
-  # - slide-020.md # - Prolog
-  # - slide-030.md # - Basic Drupal architecture
-  # - slide-040.md #   - Entities
-  # - slide-050.md #   - Modern Drupal 7 site building
-  # - slide-060.md # - Custom LMS Drupal 7 architecture
-  # #   - Features
-  # - slide-080.md #   - Content strategy
-  # #   - Modules used
-  # #   - Custom development
-  # # - Building this with Drupal 8
-  # #   - Considerations
-  # #     - Module availability
-  # #       - What to do when there is no D8 Version
-  # #     - Architectural differences
-  # # - What needs to change
-  # #   - Architecture
-  # #   - Development
-  # #   - Content strategy
-  # # - Conclusion
-  # # - Appendix
+    - title
+    - introduction
+    - clarity-slide
+    - cool stuff
+      - demo : Scarry, start with the demo. Priciple, show the cool thing first.
+        - ask alexa for a thing
+        - log into Drupal
+          - moderate some contnet
+        - ask alexa for a new thing (rig this to be the moderated thing)
+      - explain architecture
+        - high level
+          - drupal
+          - alexa
+          - lambda
+        - details
+          - vui basics
+            - vui resources
+        - the future
+          - user pools
+            - leader boards
+            - make sure the same thing doesn't happen twice
+          - thing generation
+          - thing grading
+          - web frontend (trueornot)
+    - conclusion
+    - sprint
+    - feedback
+    - appendix
