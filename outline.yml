@@ -15,11 +15,50 @@
       - explain architecture
         - high level
           - drupal
+            - why we are here! 
+            - Drupal is an awesome content management system.
+            - Why use Drupal
+              - Fieldable content
+                - Text
+                - Phrase
+                - Topic
+                - Classification
+              - Taxonomies that make sense
+                - Used in Topics
+              - User permissions/Content Access
+                - Gates access to content
+                - Limits access to published content
+              - Content Workflow
+                - New
+                - Needs Classification
+                - Needs Phrase
+                - Published
+              - Content Translations
+                - Language Matters
+              - RESTFULL capible
+                - Not limited to the browser
+              - Still has a frontend
+                - Not limited to not the browser
           - alexa
           - lambda
-        - details
+        - vui design
+          - cartography & dialog trees
+            - https://vignette.wikia.nocookie.net/u5lazarus/images/d/dc/U4map.jpg
+            - http://static.neatorama.com/images/2007-07/dd-gaming-flowchart.jpg
           - vui basics
+            - convertaional ui/conversational hacks
+              - keeping the interface conversational
+              - gleening information
+              - https://www.youtube.com/watch?v=wuDP_eygsv
+            - Dealing with errors in conversation
+            - voice design
+              - We don't need no no design
+              - There is no no design
+              - Nothing has no attitude
+              - Either define your apps voice or your users will define it for you
+              - https://www.youtube.com/watch?v=0PmWruLLUoE
             - vui resources
+              - https://www.youtube.com/playlist?list=PLJ21zHI2TNh9VkAu1EsOhpw92Wkm-XcuD
         - the future
           - user pools
             - leader boards
