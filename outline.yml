@@ -40,7 +40,81 @@
               - Still has a frontend
                 - Not limited to not the browser
           - alexa
+            - If you have an Echo device, please mute the mic now. 
+              - You have been warned and I/we/no-one is to blame if we trigger it but you.
+              - You only have yourself to blame.
+            - What is alexa
+              - Amazon's AI backed NLP service for Amazon
+              - Alexa is the voice interface for many amazon devices:
+                - Echo
+                - Echo Dot
+                - Echo Show
+                - Echo Spot
+                - Echo plus
+                - Echo Look
+                - Fire TV
+                - Fire Tablet
+                - Amazon app on your phone
+              - And non-amazon devices are powered by Alexa
+                - Invoxia Triby
+                - Ultimate Ears Blast
+                - Sonos One
+                - Eufy Genie
+              - Not an add, just wanted to show you the saturation of Alexa
+                - Aside from amazon on my phone, I don't own an echo
+                - Prefer Google Assistant and I have a Google Home
+                - Alexa is everywhere and can be in anything, but the Google assistant is wherever I am.
+              - Why focus on Alexa? probably doesn't need to be said.
+                - Saturation as I just said.
+                - Ease of development
+                - I use Google Assistant but I don't have any published google voice apps.
+                  - I don't have an Alexa enabled device, but I have built and published Alexa skills.
+                - Alexa Skills Kit makes it easier to just pick it up and build it.
+              - How does Alexa work?
+                - Intents, Utterances, and Slots oh my!
+                  - I had to do that.
+                  - Intents
+                    - The goal, function, or command you want to happen
+                  - Utterances
+                    - The words you expect a user to say to make the intent happen
+                    - Really it is the training data for the AI part of all of this
+                  - Slots
+                    - Data that the intent needs to be fulfilled
+                    - If the Intent is a function then the slot is the paramater
+                    - Slots can be custom or one of Amazon's prebuilt data types
+                    - Slots also control how Alexa asks for the data
+                      - If Alexa needs a piece of data then it will ask the user for it, how the user is asked is controlled by the slot
+                  - Fulfillment
+                    - This is what happens when the Alexa thinks it know the intent of the user and all the data slots are filled
+                    - This can be any https REST endpoint
+                    - This can also be a straigt up lambda function
+                    - Segway
+                     - https://en.wikipedia.org/wiki/Segway_PT#/media/File:Black_x2_and_white_i2.jpg
+                     - Maybe a gif of wiered al from the white and nerdy video
           - lambda
+            - AWS serverless comput service
+            - Serverless ooooooo
+              - Of corse there is a server because there has to be a place for the code to run.
+            - Lambda provides developers with a place to run simple single purpose scripts
+              - This allows us to keep the code as simple as possible without having to worry about lingering effects and server maint
+            - Multiple languages
+              - php isn't one of them
+              - I like python, it is well suited for this task
+                - So many great libraries exist for python to do many amazing things in scripts
+              - Others
+                - Javascript
+                - go
+                - C#
+                - Java
+          - How does it all fit together?
+            - User -> Alexa -> Lambda -> Drupal
+            - Drupal -> Lambda -> Alexa -> User
+            - It might sounds like lots of moving parts
+            - Why put lambda into the flow, Drupal can do REST
+              - Alexa needs an endpoint that can format the call responce a certain way
+              - Lambda allows us a graceful fallback in case of Drupal availability allowing the service to scale better
+            - Why use Drupal at all for this?
+              - See the why Drupal section!
         - vui design
           - cartography & dialog trees
             - https://vignette.wikia.nocookie.net/u5lazarus/images/d/dc/U4map.jpg
