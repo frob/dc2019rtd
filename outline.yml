@@ -2,20 +2,87 @@
   meta:
     title: Talk to me Drupal; Using Drupal to power a Voice App.
     author: Frank Robert Anderson
-  slides:
-    - title
-    - introduction
-    - clarity-slide
-    - cool stuff
-      - demo : Scarry, start with the demo. Priciple, show the cool thing first.
+  outline:
+    - prepatory
+      - title
+      - introduction
+      - clairty slide
+      - outline:
+        - If you have an Echo device, please mute the mic now.
+          - You have been warned and I/we/no-one is to blame if we trigger it but you.
+          - You only have yourself to blame.
+    - body
+      - demo: Scarry, start with the demo. Priciple, show the cool thing first.
         - ask alexa for a thing
         - log into Drupal
           - moderate some contnet
         - ask alexa for a new thing (rig this to be the moderated thing)
-      - explain architecture
-        - high level
-          - drupal
-            - why we are here! 
+      - How does Alexa/Google Assistant/VUI work?
+        - Intents, Utterances, and Slots
+          - Intents
+            - The goal, function, or command you want to happen
+          - Utterances
+            - The words you expect a user to say to make the intent happen
+            - Really it is the training data for the AI part of all of this
+          - Slots or Entities
+            - Data that the intent needs to be fulfilled
+            - If the Intent is a function then the slot is the paramater
+            - Slots can be custom or one of Amazon's prebuilt data types
+            - Slots also control how Alexa asks for the data
+              - If Alexa needs a piece of data then it will ask the user for  it, how the user is asked is controlled by the slot
+          - Fulfillment
+            - This is what happens when the Alexa thinks it know the intent  of the user and all the data slots are filled
+            - This can be any https REST endpoint
+            - This can also be a straigt up lambda function
+            - Segway
+              - https://en.wikipedia.org/wiki/Segway_PT#/media/File:Black_x2_and_white_i2.jpg
+              - Maybe a gif of wierd al from the white and nerdy video
+      - architecture: High level architecture
+          - I talk to Alexa
+          - Alexa calls Drupal
+          - Drupal gives the response to Alexa
+          - Alexa talks back to me
+      - technology:
+        - used in thinggetter:
+          - alexa:
+            - What is alexa
+              - Amazon's AI backed NLP service for Amazon
+                - Ease of development
+                - I use Google Assistant but I don't have any published google voice apps.
+                - I don't have an Alexa enabled device, but I have built and published Alexa skills.
+                - Alexa Skills Kit makes it easier to just pick it up and build it.
+                - A lot of DIYers will use Alexa to connect to any enpoint with ngrok and do home automation or something else.
+                  - as an example of that this is a video from the Ben Heck show where he used Alexa to automate his work bench.
+                    - https://www.youtube.com/watch?v=3TaLlI4BqeI
+              - Utterance to Fulfillment
+                - Utterances
+                  - The words you expect a user to say to make the intent happen
+                  - Really it is the training data for the AI part of all of this
+                - Intent
+                - Fulfillment
+                  - This is what happens when the Alexa thinks it know the intent  of the user and all the data slots are filled
+                  - This can be any https REST endpoint
+                  - This can also be a straigt up lambda function
+                  - Segway
+                    - https://en.wikipedia.org/wiki/Segway_PT#/media/File:Black_x2_and_white_i2.jpg
+                    - Maybe a gif of wierd al from the white and nerdy video
+          - lambda:
+            - AWS serverless comput service
+            - Serverless ooooooo
+              - Of corse there is a server because there has to be a place for the code to run.
+            - Lambda provides developers with a place to run simple single purpose scripts
+              - This allows us to keep the code as simple as possible without having to worry about lingering effects and server maint
+            - Multiple languages
+              - php isn't one of them
+              - I like python, it is well suited for this task
+                - So many great libraries exist for python to do many amazing things in scripts
+              - Others
+                - Javascript
+                - go
+                - C#
+                - Java
+          - drupal:
+            - why we are here!
             - Drupal is an awesome content management system.
             - Why use Drupal
               - Fieldable content
@@ -39,13 +106,11 @@
                 - Not limited to the browser
               - Still has a frontend
                 - Not limited to not the browser
-          - alexa
-            - If you have an Echo device, please mute the mic now. 
-              - You have been warned and I/we/no-one is to blame if we trigger it but you.
-              - You only have yourself to blame.
+        - other voice interfaces:
+          - alexa:
             - What is alexa
               - Amazon's AI backed NLP service for Amazon
-              - Alexa is the voice interface for many amazon devices:
+              - Alexa is the voice interface for many amazon devices
                 - Echo
                 - Echo Dot
                 - Echo Show
@@ -60,87 +125,108 @@
                 - Ultimate Ears Blast
                 - Sonos One
                 - Eufy Genie
-              - Not an add, just wanted to show you the saturation of Alexa
+              - Not an ad, just wanted to show you the saturation of Alexa
                 - Aside from amazon on my phone, I don't own an echo
                 - Prefer Google Assistant and I have a Google Home
                 - Alexa is everywhere and can be in anything, but the Google assistant is wherever I am.
-              - Why focus on Alexa? probably doesn't need to be said.
-                - Saturation as I just said.
-                - Ease of development
-                - I use Google Assistant but I don't have any published google voice apps.
-                  - I don't have an Alexa enabled device, but I have built and published Alexa skills.
-                - Alexa Skills Kit makes it easier to just pick it up and build it.
-              - How does Alexa work?
-                - Intents, Utterances, and Slots oh my!
-                  - I had to do that.
-                  - Intents
-                    - The goal, function, or command you want to happen
-                  - Utterances
-                    - The words you expect a user to say to make the intent happen
-                    - Really it is the training data for the AI part of all of this
-                  - Slots
-                    - Data that the intent needs to be fulfilled
-                    - If the Intent is a function then the slot is the paramater
-                    - Slots can be custom or one of Amazon's prebuilt data types
-                    - Slots also control how Alexa asks for the data
-                      - If Alexa needs a piece of data then it will ask the user for it, how the user is asked is controlled by the slot
-                  - Fulfillment
-                    - This is what happens when the Alexa thinks it know the intent of the user and all the data slots are filled
-                    - This can be any https REST endpoint
-                    - This can also be a straigt up lambda function
-                    - Segway
-                     - https://en.wikipedia.org/wiki/Segway_PT#/media/File:Black_x2_and_white_i2.jpg
-                     - Maybe a gif of wiered al from the white and nerdy video
-          - lambda
-            - AWS serverless comput service
-            - Serverless ooooooo
-              - Of corse there is a server because there has to be a place for the code to run.
-            - Lambda provides developers with a place to run simple single purpose scripts
-              - This allows us to keep the code as simple as possible without having to worry about lingering effects and server maint
-            - Multiple languages
-              - php isn't one of them
-              - I like python, it is well suited for this task
-                - So many great libraries exist for python to do many amazing things in scripts
-              - Others
-                - Javascript
-                - go
-                - C#
-                - Java
-          - How does it all fit together?
-            - User -> Alexa -> Lambda -> Drupal
-            - Drupal -> Lambda -> Alexa -> User
-            - It might sounds like lots of moving parts
-            - Why put lambda into the flow, Drupal can do REST
-              - Alexa needs an endpoint that can format the call responce a certain way
-              - Lambda allows us a graceful fallback in case of Drupal availability allowing the service to scale better
+          - google assistant
+            - Apps are built with "Acitons" on Google
+            - really well built
+            - has a unique training interface
+              - Allows you to better see what people are saying
+            - focused more on good design less on adoption
+            - links
+              - console.actions.google.com
+              - g.co/dev/facts-about-google
+              - g.co/actionsdev
+          - microsoft cortana
+            - low market share
+            - harmon kardon speaker
+            - still in preview
+            - nice thing is it is built on the bot framework
+              - means there is a unified framework for working with voice and text based skills.
+          - apple siri
+            - sirikit
+              - confusing, tied to maps for some reason, very limited in what kinds of things can be done (limited to pre defined domains)
+        - likeness to chatbots:
+          - aws lex
+          - microsoft chatbot api
+          - ibm watson
+      - architecture: Low level
+        - How does it all fit together?
+          - User -> Alexa -> Lambda -> Drupal
+          - Drupal -> Lambda -> Alexa -> User
+          - It might sounds like lots of moving parts
+          - Why put lambda into the flow, Drupal can do REST
+            - Alexa needs an endpoint that can format the call responce a certain way
+            - Lambda allows us a graceful fallback in case of Drupal availability allowing the service to scale better
+        - architecture overview
+          - I talk to Alexa
+          - Alexa calls lambda
+          - Lambda calls Drupal
+          - Drupal returns to lambda
+          - Lambda gives the response to Alexa
+          - Alexa talks back to me
+      - tips
+        - Open Source Voice and NLP
+          - NLP is hard
+            - Nuance has been doing voice to text forever, they are getting into NLP
+            - NLP is the AI (usually) way to get meaning from natural language
+              - All of them start with some sort of natual language tool kit
+                - NLTK in python
+                - NLPTools in php
+                - lots of processing of the text must be done in order to make the data suitable for a computer. @TODO write blog post on this.
+                  - To learn more you can read
+                    - Not going into it in this session. Just know it is very hard.
+                    - https://en.wikipedia.org/wiki/Natural-language_processing
+                    - My blog post
+              - Then feed the data from those into a machine learning framework, such as TensorFlow or SageMaker
+              - or just use a prebuilt NLP solution such as AWS Comprehend
+          - wit.ai
+      - vui design
+        - cartography & dialog trees
+          - https://vignette.wikia.nocookie.net/u5lazarus/images/d/dc/U4map.jpg
+          - http://static.neatorama.com/images/2007-07/dd-gaming-flowchart.jpg
+        - vui basics
+          - convertaional ui/conversational hacks
+            - keeping the interface conversational
+            - gleening information
+            - https://www.youtube.com/watch?v=wuDP_eygsv
+          - Dealing with errors in conversation
+          - voice design
+            - We don't need no no design
+            - There is no no design
+            - Nothing has no attitude
+            - Either define your apps voice or your users will define it for you
+            - https://www.youtube.com/watch?v=0PmWruLLUoE
+          - vui resources
+            - https://www.youtube.com/playlist?list=PLJ21zHI2TNh9VkAu1EsOhpw92Wkm-XcuD
+    - conclusion
+      - reenforcement
+      - conclusion
+      - sprint slide
+      - apendex
+
+  slides:
+    - title
+    - introduction
+    - clarity slide
+    - cool stuff
+      - demo
+      - explain architecture:
+        - 10k foot level
+        - lower level
+
             - Why use Drupal at all for this?
               - See the why Drupal section!
-        - vui design
-          - cartography & dialog trees
-            - https://vignette.wikia.nocookie.net/u5lazarus/images/d/dc/U4map.jpg
-            - http://static.neatorama.com/images/2007-07/dd-gaming-flowchart.jpg
-          - vui basics
-            - convertaional ui/conversational hacks
-              - keeping the interface conversational
-              - gleening information
-              - https://www.youtube.com/watch?v=wuDP_eygsv
-            - Dealing with errors in conversation
-            - voice design
-              - We don't need no no design
-              - There is no no design
-              - Nothing has no attitude
-              - Either define your apps voice or your users will define it for you
-              - https://www.youtube.com/watch?v=0PmWruLLUoE
-            - vui resources
-              - https://www.youtube.com/playlist?list=PLJ21zHI2TNh9VkAu1EsOhpw92Wkm-XcuD
-        - the future
-          - user pools
-            - leader boards
-            - make sure the same thing doesn't happen twice
-          - thing generation
-          - thing grading
-          - web frontend (trueornot)
+
+      - the future:
+        - leader boards
+        - make sure the same thing doesn't happen twice
+        - thing generation
+        - thing grading
+        - web frontend (trueornot)
     - conclusion
     - sprint
     - feedback
-    - appendix
+    - appendex
