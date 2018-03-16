@@ -25,7 +25,6 @@
  - blog
  - website
  - I work for Clarity Innovations.
-
 >>>
 
 # Hello My Name Is Frank

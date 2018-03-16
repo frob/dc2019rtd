@@ -1,7 +1,4 @@
----
-  notes:
-    - Title Slide
----
+
 >>> notes
  - When are sprints
  - April 24-27: Sprint Lounge at Baltimore Convention Center
