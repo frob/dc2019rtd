@@ -1,11 +1,12 @@
 {
-  "name": "dc2017d8arch",
-  "version": "1.0.0",
-  "description": "Drupal Con NA 2017 Drupal 8 Architechture Session",
+  "name": "dc2018d8arch",
+  "version": "2.0.0",
+  "description": "Talk to me Drupal; Using Drupal to power a Voice App",
   "main": "index.js",
   "scripts": {
+    "install-reveal": "cd node_modules/reveal.js && yarn install",
     "compile": "node index.js && cp -r content node_modules/reveal.js/ && cp index.html node_modules/reveal.js/ && cp -r theme node_modules/reveal.js/",
-    "start": "cd node_modules/reveal.js/ && npm start; cd ../..",
+    "start": "cd node_modules/reveal.js/ && yarn start; cd ../..",
     "back": "cd ../..",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
