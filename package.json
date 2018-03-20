@@ -18,6 +18,8 @@
     "markdown-it": "^8.3.1",
     "markdown-it-container": "^2.0.0",
     "markdown-it-deflist": "^2.0.1",
-    "pug": "^0.1.0"
+    "pug": "^0.1.0",
+    "http-serve": "^1.0.1",
+    "reveal.js": "^3.6.0"
   }
 }
