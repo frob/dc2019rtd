@@ -6,11 +6,7 @@
   - Our 25 employees combine leading edge technology and design skills with direct experience in the classroom and university.
   - We develop solutions for our clients including strategic consulting, professional development and content creation, and engineering solutions such as apps, web apps, and websites to help improve the process and practice of teaching and learning.
 >>>
+>
 ![Clarity Innovations Logo](/content/images/cilogo.jpg)
 
-:::
-
-::: slide
-
-![New Perspectives Online Screenshot](/content/images/p2s2-screens/screenshot.png)
 :::
