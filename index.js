@@ -40,6 +40,18 @@ const md = require('markdown-it')()
   });
 const fm = require('front-matter');
 const dpm = console.log;
+const slideTemplate = `
+::: slide
+
+>>> notes
+- @TODO put notes here .
+
+>>>
+>
+# outline
+
+:::
+`;
 
 var outline = yaml.safeLoad(fs.readFileSync('./outline.yml', 'utf8'));
 
@@ -47,23 +59,29 @@ const content = outline.slides.map(loadContent);
 outline.slides = content;
 
 const compiledFunction = pug.compileFile('index.pug');
-
+// console.log(outline);
 fs.writeFile('index.html', compiledFunction({'outline': outline}), function(err) {
-  if (err) {
-    return console.log(err);
-  }
+    if (err) {
+      return console.log(err);
+    }
 
-  console.log('File Saved.')
+    console.log('File Saved.')
 });
 
 function loadContent(file) {
   // Eventually this will need to maybe parse the markdown. Maybe not.
-  const frontMater = fm(fs.readFileSync('./content/' + file, 'utf8'));
-
-  const contentObject = {
-    body: md.render(frontMater.body),
-    notes: frontMater.attributes.notes
+  try {
+    const frontMater = fm(fs.readFileSync('./content/' + file.file, 'utf8'));
+    const contentObject = {
+      body: md.render(frontMater.body),
+      notes: frontMater.attributes.notes
+    }
+    return contentObject;
   }
-
-  return contentObject;
+  catch (e) {
+    if (!e.path.includes('undefined')) {
+      fs.writeFileSync(e.path, slideTemplate, {'encoding': 'utf8'});
+    }
+    return false;
+  }
 }
