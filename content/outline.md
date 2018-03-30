@@ -17,9 +17,9 @@
 
 - Cool stuff
 - How does a vui work
-- Architecture high level
+- Architecture
 - Technology
-- Architechture low level
+- Architechture Part II
 - VUI tips
 - VUI design
 - Bringin it home slide
