@@ -12,7 +12,16 @@
 - vui design
 
 >>>
->
-# outline
+
+## outline
+
+- Cool stuff
+- How does a vui work
+- Architecture high level
+- Technology
+- Architechture low level
+- VUI tips
+- VUI design
+- Bringin it home slide
 
 :::
