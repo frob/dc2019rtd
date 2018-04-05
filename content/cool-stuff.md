@@ -38,11 +38,20 @@ Everyone here has likely seen the node edit page.
 :::
 
 ::: slide
+>>> notes
+- Most of these numbers come from Christonpher Farrel's SXSW presentation I've got no strings https://www.slideshare.net/cwferrel/ive-got-no-screens-internets-screenless-future-sxsw-2018-90319757
+>>>
+
+![](/content/images/ivegotnoscreens.png)
+
+https://twitter.com/chrisferrel/status/972861513928032256
+:::
+
+::: slide
 
 >>> notes
 
 - @TODO add stats from Thors presentation
-- Most of these numbers come from Christonpher Farrel's SXSW presentation I've got no strings https://www.slideshare.net/cwferrel/ive-got-no-screens-internets-screenless-future-sxsw-2018-90319757
 - The cool thing he starts with is a prediction from Gartner
   - by 2020, 2 years from now, 30% of webbrowsing will be done without a screen.
 
@@ -88,7 +97,7 @@ Bottom line
 
 ## Voice Assistants Adoption
 
-!(voice assistant adoption is outpacing smartphone adoption)[/content/images/todoremakethisgraph.png]
+![voice assistant adoption is outpacing smartphone adoption](/content/images/todoremakethisgraph.png)
 
 :::
 

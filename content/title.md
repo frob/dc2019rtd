@@ -7,8 +7,6 @@
    - You only have yourself to blame.
 >>>
 
-# Talk to me Drupal; Using Drupal to power a Voice App
-
-By frob
-
-[bitly slide link]()
+![](/content/images/titleimage.png)
+# Talk to me Drupal
+Using Drupal to power a Voice App

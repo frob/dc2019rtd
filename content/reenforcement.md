@@ -5,6 +5,7 @@
 
 *Consider this*
 - you have a client that wants to have a chatbot that tells one new joke every day.
+  - Because, pew research says 46% of Americans use digital voice assistants
 - This can be done multiple ways.
   - you can manage the jokes through the vendor console
     - log in every day at the same time, every morning, and copying in the joke.
