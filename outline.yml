@@ -215,12 +215,12 @@
       file: introduction.md
     - clarity slide:
       file: clarity-slide.md
+    - cool stuff:
+      file: cool-stuff.md
     - outline:
       file: outline.md
 
   # Body.
-    - cool stuff:
-      file: cool-stuff.md
     - how does a vui work
     - architecture high level
     - technology
