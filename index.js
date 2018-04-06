@@ -72,14 +72,16 @@ function loadContent(file) {
   // Eventually this will need to maybe parse the markdown. Maybe not.
   try {
     const frontMater = fm(fs.readFileSync('./content/' + file.file, 'utf8'));
+    const classes = (typeof frontMater.attributes.class === 'undefined') ? '' : frontMater.attributes.class;
     const contentObject = {
       body: md.render(frontMater.body),
-      notes: frontMater.attributes.notes
+      notes: frontMater.attributes.notes,
+      classes: classes
     }
     return contentObject;
   }
   catch (e) {
-    if (!e.path.includes('undefined')) {
+    if (!e.code === 'ENOENT') {
       fs.writeFileSync(e.path, slideTemplate, {'encoding': 'utf8'});
     }
     return false;
