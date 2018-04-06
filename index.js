@@ -6,8 +6,8 @@ const yaml = require('js-yaml');
 const md = require('markdown-it')()
   .use(require('markdown-it-deflist'))
   .use(require('markdown-it-container'), 'notes', {
-    render: function (tokens, idx) {
-      if (tokens[idx].nesting === 1) {
+    render: function (tokens, index) {
+      if (tokens[index].nesting === 1) {
         return '<aside class="notes">';
       } else {
         return '</aside>';
@@ -16,8 +16,8 @@ const md = require('markdown-it')()
     marker: ">"
   })
   .use(require('markdown-it-container'), 'slide', {
-    render: function (tokens, idx) {
-      if (tokens[idx].nesting === 1) {
+    render: function (tokens, index) {
+      if (tokens[index].nesting === 1) {
         return '<section data-transition="slide">';
       } else {
         return '</section>';
@@ -28,9 +28,9 @@ const md = require('markdown-it')()
     validate: function (params) {
       return params.trim().match(/^section\s+(.*)$/);
     },
-    render: function (tokens, idx) {
-      if (tokens[idx].nesting === 1) {
-        const attributes = tokens[idx].info.trim().match(/^section\s+(.*)$/);
+    render: function (tokens, index) {
+      if (tokens[index].nesting === 1) {
+        const attributes = tokens[index].info.trim().match(/^section\s+(.*)$/);
 
         return '<section ' + attributes[1] + '>';
       } else {
@@ -72,11 +72,13 @@ function loadContent(file) {
   // Eventually this will need to maybe parse the markdown. Maybe not.
   try {
     const frontMater = fm(fs.readFileSync('./content/' + file.file, 'utf8'));
-    const classes = (typeof frontMater.attributes.class === 'undefined') ? '' : frontMater.attributes.class;
+    const classes = defineDefault('', frontMater.attributes.class);
+    const transition = defineDefault('slide', frontMater.attributes.transition);
     const contentObject = {
       body: md.render(frontMater.body),
       notes: frontMater.attributes.notes,
-      classes: classes
+      classes: classes,
+      transition: transition
     }
     return contentObject;
   }
@@ -86,4 +88,8 @@ function loadContent(file) {
     }
     return false;
   }
+}
+
+function defineDefault(defaultValue, value) {
+  return (typeof value === 'undefined') ? defaultValue : value;
 }

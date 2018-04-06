@@ -23,7 +23,7 @@ html
     div.reveal
       div.slides
         each item in outline.slides
-          section(class=item.classes)!= item.body
+          section(class=item.classes data-transition=item.transition)!= item.body
 
       div.branding
         div
