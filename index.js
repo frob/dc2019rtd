@@ -69,7 +69,7 @@ fs.writeFile('index.html', compiledFunction({'outline': outline}), function(err)
 });
 
 function loadContent(file) {
-  // Eventually this will need to maybe parse the markdown. Maybe not.
+  console.log(file);
   try {
     const frontMater = fm(fs.readFileSync('./content/' + file.file, 'utf8'));
     const classes = defineDefault('', frontMater.attributes.class);
@@ -95,8 +95,9 @@ function loadContent(file) {
     return contentObject;
   }
   catch (e) {
-    if (!e.code === 'ENOENT') {
+    if (typeof file.file !== 'undefined' && e.code === 'ENOENT') {
       fs.writeFileSync(e.path, slideTemplate, {'encoding': 'utf8'});
+      console.log(e.path);
     }
     return false;
   }
