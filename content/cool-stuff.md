@@ -80,9 +80,9 @@ section
 
   :markdown-it
 
-    ## Voice is the new mobile
+    ## Voice first is the new mobile first
 
-    @TODO pic of spacejam website
+    ![screenshot of spacejam website](/content/images/spacejam.png)
 
     > Best viewed on Internet Explorer at 800x600 resolution.
 
