@@ -1,4 +1,6 @@
-
+---
+  class: brand-slide
+---
 ::: slide
 
 >>> notes

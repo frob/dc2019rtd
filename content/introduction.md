@@ -1,19 +1,8 @@
 ---
-  notes:
-    - Web development since high school
-    - Been working in Drupal professionally for just shy of 10 years.
-    - I have worked almost exclusively in the Education industry both higher ed and k-12 for over 5 years.
-    - Online you can find me as frob
-      - IRC
-      - github
-      - drupal.org
-    - Twitter frobdfas
-    - blog
-    - website
-    - I work for Clarity Innovations.
+class: introduction-slide
 ---
 
-::: slide
+::: section data-transition="slide"
 
 
 >>> notes
@@ -44,7 +33,7 @@ I am a Christian, Father, and Technology Enthusiast.
 [link to slides]()
 :::
 
-::: slide
+::: section data-transition="slide"
 
 ## Technology Enthusiast
 
