@@ -69,7 +69,6 @@ fs.writeFile('index.html', compiledFunction({'outline': outline}), function(err)
 });
 
 function loadContent(file) {
-  console.log(file);
   try {
     const frontMater = fm(fs.readFileSync('./content/' + file.file, 'utf8'));
     const classes = defineDefault('', frontMater.attributes.class);
@@ -81,6 +80,7 @@ function loadContent(file) {
         content = pug.render(frontMater.body);
       }
       catch (e) {
+        console.log(file.file);
         console.log(e);
       }
     } else {
