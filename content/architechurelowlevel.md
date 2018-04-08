@@ -37,6 +37,8 @@ section
         - Drupal returns to lambda
         - Lambda gives the response to Alexa
         - Alexa talks back to me
+        - Notice I am not using the chatbot api module in this architecture
+        - @TODO This doesn't really work.
 
   :markdown-it
 
