@@ -53,8 +53,8 @@ body .reveal .branding .brand-link {
   border-left: 1px solid #7f7f7f;
 }
 
-body .reveal .slides section:first-child h1,
-body .reveal .slides section:first-child h1 + p {
+body .reveal .slides section.title-slide h1,
+body .reveal .slides section.title-slide h1 + p {
   text-align: right;
   width: 75%;
   margin: 0 auto 0 auto;
