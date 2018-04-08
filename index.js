@@ -47,8 +47,8 @@ const slideTemplate = `
 - @TODO put notes here .
 
 >>>
->
-# outline
+
+# Slide title
 
 :::
 `;
@@ -74,8 +74,15 @@ function loadContent(file) {
     const frontMater = fm(fs.readFileSync('./content/' + file.file, 'utf8'));
     const classes = defineDefault('', frontMater.attributes.class);
     const transition = defineDefault('slide', frontMater.attributes.transition);
+    const parser = defineDefault('markdown', frontMater.attributes.parser);
+    let content = '';
+    if (parser == 'pug') {
+      content = pug.render(frontMater.body);
+    } else {
+      content = md.render(frontMater.body);
+    }
     const contentObject = {
-      body: md.render(frontMater.body),
+      body: content,
       notes: frontMater.attributes.notes,
       classes: classes,
       transition: transition
