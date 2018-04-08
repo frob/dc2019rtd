@@ -14,13 +14,14 @@ section
         - It would respond differently
 
 
-  :markdown-it
-    ## Live Demo
 
-    - I would Ask Alexa for something
-    - It would respond
-    - I would edit something in Drupal and ask again
-    - It would respond differently
+  h2 Live Demo
+
+  ul
+    li.fragment I would Ask Alexa for something
+    li.fragment It would respond
+    li.fragment I would edit something in Drupal and ask again
+    li.fragment It would respond differently
 
 section
 
@@ -124,7 +125,7 @@ section
     So you have decided to build a voice app
 
   ul
-    li want to have a voice app that tells one new joke every day
-    li This can be done multiple (bad) ways.
-    li you can manage the jokes through the vendor console
-    li you can have the response pre-programmed with hardcoded responses that get cycled through.
+    li.fragment want to have a voice app that tells one new joke every day
+    li.fragment This can be done multiple (bad) ways.
+    li.fragment you can manage the jokes through the vendor console
+    li.fragment you can have the response pre-programmed with hardcoded responses that get cycled through.
