@@ -226,7 +226,8 @@
     - architecture high level:
       file: architecturehighlevel.md
     - technology
-    - architechture low level
+    - architechture low level:
+      file: architechurelowlevel.md
     - vui tips
     - vui design
 
