@@ -77,7 +77,12 @@ function loadContent(file) {
     const parser = defineDefault('markdown', frontMater.attributes.parser);
     let content = '';
     if (parser == 'pug') {
-      content = pug.render(frontMater.body);
+      try {
+        content = pug.render(frontMater.body);
+      }
+      catch (e) {
+        console.log(e);
+      }
     } else {
       content = md.render(frontMater.body);
     }
