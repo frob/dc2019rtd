@@ -45,17 +45,3 @@ There are many people trying to do that. wit.ai for example is an open source al
 @TODO, get wit.ai info for here.
 
 :::
-
-      - All of them start with some sort of natual language tool kit
-        - NLTK in python
-        - NLPTools in php
-        - lots of processing of the text must be done in order to make the data suitable for a computer. @TODO write blog post on this.
-          - To learn more you can read
-            - Not going into it in this session. Just know it is very hard.
-            - https://en.wikipedia.org/wiki/Natural-language_processing
-            - My blog post
-      - Then feed the data from those into a machine learning framework, such as TensorFlow or SageMaker
-      - or just use a prebuilt closed source NLP solution such as AWS Comprehend
-  - wit.ai
-
-:::
