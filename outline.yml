@@ -226,9 +226,12 @@
     - architecture high level:
       file: architecturehighlevel.md
     - technology
+    - NLP Into:
+      file: opennlp.md
+    - NLP Detail:
+      file: opennlpdetail.md
     - architechture low level:
       file: architechurelowlevel.md
-    - vui tips
     - vui design
 
   # Conclusion.
