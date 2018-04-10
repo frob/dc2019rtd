@@ -232,8 +232,9 @@
     - technology:
       file: technology.md
     - architechture low level:
-      file: architechurelowlevel.md
-    - vui design
+      oldfile: architechurelowlevel.md
+    - vui design:
+      file: design.md
 
   # Conclusion.
     - reenforcement slide:
