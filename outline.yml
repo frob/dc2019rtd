@@ -225,11 +225,12 @@
       file: howitworks.md
     - architecture high level:
       file: architecturehighlevel.md
-    - technology
     - NLP Into:
       file: opennlp.md
     - NLP Detail:
       file: opennlpdetail.md
+    - technology:
+      file: technology.md
     - architechture low level:
       file: architechurelowlevel.md
     - vui design

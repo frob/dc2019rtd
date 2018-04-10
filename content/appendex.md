@@ -14,4 +14,5 @@
 
 [NLP in Python](https://elitedatascience.com/python-nlp-libraries)
 [NLP wikipedia](https://en.wikipedia.org/wiki/Natural-language_processing)
+[Ben Heck's Alexa Powered Workbench](https://www.youtube.com/watch?v=3TaLlI4BqeI)
 :::
