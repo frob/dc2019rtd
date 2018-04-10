@@ -120,6 +120,7 @@ section
         - you can manage the jokes through the vendor console
           - log in every day at the same time, every morning, and copying in  the joke.
         - you can have the response pre-programmed with hardcoded responses that get cycled through.
+      -  If only there was some sort of system that could manage this content.
 
   h2.
     So you have decided to build a voice app

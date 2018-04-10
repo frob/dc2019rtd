@@ -31,12 +31,3 @@
     - you can manage the jokes through the vendor console
     - you can have the response pre-programmed with hardcoded responses that get cycled through.
 :::
-
-::: slide
-
->>> notes
-If only there was some sort of system that could manage this content.
->>>
-
-![The Files are in the computer](/content/images/inthecomputer.jpg)
-:::
