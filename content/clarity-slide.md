@@ -12,3 +12,36 @@
 ![Clarity Innovations Logo](/content/images/cilogo.jpg)
 
 :::
+
+::: slide
+
+## Technology Enthusiast
+
+>>> notes
+ - I make it my job to know as much as I can about emerging technologies.
+ - I have many hobbies that have span many things.
+   - Dnd
+   - Game Mechanics
+   - Used to record music
+   - Still live sound (at church)
+ - Making things
+>>>
+
+:::
+
+::: slide
+
+## Jack of all Technologies
+
+>>> notes
+ - New technologies that have recently become main stream
+   - Natrual Language Processing
+   - Machine Learning
+   - Internet of things
+   - Intelegent Chatbots
+     - not druplicon or drupalbot or hubot
+     - Real conversational chatbots that respond in non-preprogrammed ways and expected ways to unexpected commands
+     - Virtual Assistants, such as those used by Google, Amazon, Microsoft, and Apple are just smart chatbots.
+>>>
+
+:::
