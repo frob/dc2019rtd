@@ -13,7 +13,7 @@
 
 :::
 
-::: slide
+::: section data-transition="slide" data-background-image="/content/images/brandbgtop.png"
 
 ## Technology Enthusiast
 
@@ -29,7 +29,7 @@
 
 :::
 
-::: slide
+::: section data-transition="slide" data-background-image="/content/images/brandbgtop.png"
 
 ## Jack of all Technologies
 

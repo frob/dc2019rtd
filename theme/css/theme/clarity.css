@@ -22,6 +22,7 @@ body .reveal .branding {
   width: 100%;
   bottom: 0;
   height: 99px;
+  z-index: 10000;
 }
 
 body .reveal .branding > div {
@@ -224,6 +225,17 @@ html body:before {
   -webkit-mask-box-image: url(/content/images/bg-paper-tear-white-bottom.png);
   background-color: white;
 }*/
+
+a.showlink:after{
+  content:" (" attr(href) ") ";
+  font-size:0.8em;
+  font-weight:normal;
+  color:#7f7f7f }
+.apendix-slide a:after{
+  content:" (" attr(href) ") ";
+  font-size:0.8em;
+  font-weight:normal;
+  color:#7f7f7f }
 
 html.baltimore-city body {
   background: url("../../img/bg-baltimore-city.jpg") no-repeat 0 0;

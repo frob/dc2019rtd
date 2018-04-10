@@ -1,7 +1,7 @@
 ---
   parser: pug
 ---
-section
+section(data-background-image="/content/images/brandbgtop.png")
 
   aside.notes
     :markdown-it

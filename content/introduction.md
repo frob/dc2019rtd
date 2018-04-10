@@ -2,7 +2,7 @@
 class: introduction-slide
 ---
 
-::: section data-transition="slide"
+::: section data-transition="slide" data-background-image="/content/images/brandbgbottom.png"
 
 
 >>> notes
