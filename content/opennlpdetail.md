@@ -29,7 +29,8 @@ section
 
   h2 NLP in 4 easy steps
   div.fragment
-    input(type=checkbox checked) Voice to Text
+    input(type="checkbox" checked)
+    label Voice to Text
 
   ol
     li.fragment Open Source Language Parsing libraries
@@ -58,3 +59,27 @@ section
       li but in my opinion that isn't the hardest part.
 
   p @TODO, picture of underpants trolls from southpark
+
+section
+  aside.notes
+    :markdown-it
+      - There is still a very large hurdle to overcome.
+      - Adoption
+      - You might be able to convice the user on your website or app to allow you access to the microphone, most users will just click okay to anything you pop up to make the popup go away.
+
+  h2 The biggest hurdle to open source NLP
+  div.fragment
+    h3 adoption
+    p @TODO, Put a picture of a puppy in a kennel here.
+
+section
+  aside.notes
+    :markdown-it
+      - Eventually,
+      - like this puppy, NLP will need to be recued
+      - But it isn't so bad right now. Remember that it wasn't too long ago that most people used closed source web browsers.
+
+  h2 Call to action
+  h3 Rescue NLP
+  p @TODO, Put a picture of a puppy in a kennel here.
+  p.fragment Eventually
