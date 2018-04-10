@@ -5,9 +5,11 @@ parser: pug
 aside.notes
   :markdown-it
     - When are sprints
-    - April 24-27: Sprint Lounge at Baltimore Convention Center
-    - April 28: Sprint Day - General Sprints, Mentored Core Sprint, First-Time Sprinter Workshop at Baltimore Convention Center
-    - We also provide a 24-hour Sprinter Lounge that opens on April 24th at 7:00pm and will close on Thursday, April 27th at midnight. The Sprinter Lounge will be located at the Hilton Baltimore (401 West Pratt Street) in room Peale A-C.
+    - Friday the 13th
+    - Mentored core sprints in room 103
+    - First Time springers in room 101
+    - General sprints in room 104
+    - I will probably either be in the core sprint room or in the general sprint room.
 
 h1 Join us for contribution sprints?
 p Friday, April 13, 2018
