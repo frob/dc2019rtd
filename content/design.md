@@ -62,6 +62,6 @@ section
   h2 Voice Design
 
   ul
-    li.fragment There is no <i>No Design</li>
-    li.fragment Nothing has <li>No Attitude</li>
-    li.fragment Nothing has <li>No Voice</li>
+    li.fragment There is no <i>No Design</i>
+    li.fragment Nothing has <i>No Attitude</i>
+    li.fragment Nothing has <i>No Voice</i>
