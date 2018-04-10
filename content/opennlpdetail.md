@@ -70,5 +70,8 @@ section
 
   h2 The biggest hurdle to open source NLP
   div.fragment
-    h3 adoption
-    p @TODO, Put a picture of a puppy in a kennel here.
+    p Adoption
+    div(style="background-image: url(/content/images/puppy.jpg);background-size:100%;width: 75%;height: 0;padding-bottom: 45%;margin-left:auto;margin-right:auto;")
+      img(src="/content/images/cage.png")
+    <!-- attribution puppy https://pixabay.com/en/dog-adoption-home-adopted-dog-2911444/ -->
+    <!-- attribution bars https://pixabay.com/en/cage-bars-cell-jail-prison-1161869/ -->

@@ -159,6 +159,7 @@ section
       - Some people will use it, others will just continue using Edge and Safari
 
   h2 Call to action
-  h3 Rescue NLP
-  p @TODO, Put a picture of a puppy in a kennel here.
+  p Rescue NLP
+  div(style="background-image: url(/content/images/puppy.jpg);background-size:100%;width: 75%;height: 0;padding-bottom: 45%;margin-left:auto;margin-right:auto;")
+    img(src="/content/images/cage.png" class="fragment fade-out")
   p.fragment Eventually
