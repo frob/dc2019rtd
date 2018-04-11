@@ -30,5 +30,4 @@ I am a Christian, Father, and Technology Enthusiast.
  - _My Blog is_ [www.frobiovox.com](https://www.frobiovox.com)
  - _I work for_ Clarity Innovations Inc.
 
-[link to slides]()
 :::
