@@ -6,7 +6,7 @@ section
   aside.notes
     p Amazon is leading in both device adoption and 3rd party app development.
   h1 Amazon is leading in adoption
-  p @TODO show graph about this.
+  img(src="/content/images/marketshare.png")
 
 section
   aside.notes
@@ -113,7 +113,7 @@ section
           - Not limited to not the browser
 
   h2 How does drupal fit in?
-  p @TODO; picture of Drupalicon
+  img(src="/content/images/druplicon-large.png" style="width:25%")
 
 section
   aside.notes
@@ -143,7 +143,7 @@ section
       - microsoft chatbot api
       - ibm watson
 
-  h2 other voice interfaces
+  h2 Other Voice Interfaces
   ul
     li.fragment Google Assistant
     li.fragment Microsoft Cortana

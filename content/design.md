@@ -26,9 +26,9 @@ section
         - You will need to lead your users without showing them the way.
 
   h2 Cartography & Dialog Trees
-  :markdown-it
-    ![](https://vignette.wikia.nocookie.net/u5lazarus/images/d/dc/U4map.jpg)
-    ![](http://static.neatorama.com/images/2007-07/dd-gaming-flowchart.jpg)
+
+  img(src="https://vignette.wikia.nocookie.net/u5lazarus/images/d/dc/U4map.jpg" style="width: 40%; height:auto; display:inline-block")
+  img(src="http://static.neatorama.com/images/2007-07/dd-gaming-flowchart.jpg" style="width: 40%; height:auto; display:inline-block")
 
 section
   aside.notes

@@ -26,9 +26,9 @@ section
   h2.fragment Utterances
   p.fragment The words you expect a user to say to make the intent happen
   h2.fragment Entities
-  ul.fragment(style="text-align: center")
-    li Data that the intent needs
-    li Intent Parameters
+  div.fragment
+    p Data that the intent needs
+    p Intent Parameters
 
 section
   aside.notes

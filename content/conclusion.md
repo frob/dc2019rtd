@@ -2,19 +2,31 @@
 ::: slide
 
 >>> notes
-- @TODO put notes here.
+  - Cool stuff
+  - Voice App 101
+  - Architecture
+  - Natural Language Processing
+  - Current Market
+  - VUI design tips
+  - Brought it home
 
 
 >>>
->
+
 # outline
+
+  - [✔️] Cool stuff
+  - [✔️] Voice App 101
+  - [✔️] Architecture
+  - [✔️] Natural Language Processing
+  - [✔️] Current Market
+  - [✔️] VUI design tips
+  - [✔️] Bringin it Home
 
 :::
 ::: slide
 
 >>> notes
-- @TODO put notes here.
-
 Voice is just the start.
 We are already starting the screenless revolution.
 

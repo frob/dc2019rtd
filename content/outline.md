@@ -5,24 +5,24 @@ section
 
   aside.notes
     :markdown-it
-      - @TODO put outline here when it's final.
-      - cool stuff
-      - how does a vui work
-      - architecture high level
-      - technology
-      - architechture low level
-      - vui tips
-      - vui design
+      - Cool stuff
+      - Voice App 101
+      - Architecture
+      - Natural Language Processing
+      - Current Market
+      - VUI design tips
+      - Bringin it Home
+      - Questions
 
   :markdown-it
 
     ## outline
 
-      - [x] Cool stuff
-      - [ ] How does a vui work
-      - [ ] Architecture
-      - [ ] Technology
-      - [ ] Architechture Part II
-      - [ ] VUI tips
-      - [ ] VUI design
-      - [ ] Bringin it home slide
+      - [✔️] Cool stuff
+      - [  ] Voice App 101
+      - [  ] Architecture
+      - [  ] Natural Language Processing
+      - [  ] Current Market
+      - [  ] VUI design tips
+      - [  ] Bringin it Home
+      - [  ] Questions

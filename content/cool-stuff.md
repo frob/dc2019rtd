@@ -54,8 +54,6 @@ section
 
   aside.notes
     :markdown-it
-
-      - @TODO add stats from Thors presentation
       - The cool thing he starts with is a prediction from Gartner
         - by 2020, 2 years from now, 30% of webbrowsing will be done without a screen.
 

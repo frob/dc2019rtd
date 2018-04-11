@@ -5,12 +5,11 @@ section
 
   aside.notes
     :markdown-it
-      - @TODO put notes here.
+      - NLP is hard
 
-  :markdown-it
-    # NLP is hard
+  h1 NLP is hard
 
-    @TODO maybe a good place for the StarTrek Hello Computer gif.
+  img(src="/content/images/hellocomputer.png")
 
 section
   aside.notes
@@ -23,34 +22,38 @@ section
           - To learn more you can read
             - Not going into it in this session. Just know it is very hard.
             - https://en.wikipedia.org/wiki/Natural-language_processing
-            - My blog post
+            - Lemmatization
+            - Morphological segmentation
+            - Sentence breaking
+            - Stemming
       - Then feed the data from those into a machine learning framework, such as TensorFlow or SageMaker
       - or just use a prebuilt closed source NLP solution such as AWS Comprehend
 
   h2 NLP in 4 easy steps
-  div.fragment
-    input(type="checkbox" checked)
-    label Voice to Text
+  h3.fragment.fade-out ☑️ Voice to Text
 
-  ol
-    li.fragment Open Source Language Parsing libraries
-      :markdown-it
-        - **NLTK** for Python
-        - **NLPTools** for PHP
-    li.fragment Do lots of data science processing to format the spoken language into something the computer can understand.
+  h3.fragment Open Source Language Parsing libraries
+  div.fragment
+    :markdown-it
+      - **NLTK** for Python
+      - **NLPTools** for PHP
+  h3.fragment Do lots of data science processing to format the spoken language into something the computer can understand.
       ul
-        li.fragment @TODO, List out a few steps from the wikipedia article.
-    li.fragment Do Machine Learning
-      ul
-        li TensorFlow
-        li @TODO, list out another open source ML library
-        li Roll your own Machine Learning library
-          p.fragment @TODO Link to the guy who did it with Excell
-    li.fragment Do the thing your clients want done
-      p Achievement unlocked, Open Source NLP
+        li.fragment.fade-in Lemmatization
+        li.fragment.fade-in Morphological segmentation
+        li.fragment.fade-in Sentence breaking
+        li.fragment.fade-in Stemming
+  h3.fragment Do Machine Learning
+    p TensorFlow
+
+section
+  h2 Roll your own Machine Learning library
+  p.fragment Can't be to hard, this guy did it in Excell
+    iframe(width="560" height="315" src="https://www.youtube-nocookie.com/embed/kCL065_0zTY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen)
 
 section
   aside.notes
+    p Lastly we get to do the thing that our clients wanted us to do.
     p To review
     ul
       li Do voice to text somehow
@@ -58,7 +61,7 @@ section
       li profit
       li but in my opinion that isn't the hardest part.
 
-  p @TODO, picture of underpants trolls from southpark
+  p Do the thing your clients want done.
 
 section
   aside.notes
