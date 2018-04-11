@@ -26,3 +26,6 @@ section
 
   :markdown-it
     ![](/content/images/robot.jpg)
+
+section
+  iframe(width="560" height="315" src="https://www.youtube.com/embed/e2R0NSKtVA0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen)

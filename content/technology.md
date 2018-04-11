@@ -59,6 +59,8 @@ section
       - I don't have an Alexa enabled device, but I have built and published Alexa skills.
       - Alexa Skills Kit makes it easier to just pick it up and build it.
       - A lot of DIYers will use Alexa to connect to any enpoint with ngrok and do home automation or something else.
+      - Amazon has developer programs to help, everything from mothly payments to top application to AWS vouchers to pay for the AWS services that they hope you will be using.
+      - I am not sure if they are still doing it, but when I made my voice app Amazon would give the developer a free echo dot if they had over 80 users in the first month. Mine got 78. So close!
         - as an example of that this is a video from the Ben Heck show where he used Alexa to automate his work bench.
           - https://www.youtube.com/watch?v=3TaLlI4BqeI
 
@@ -83,8 +85,8 @@ section
           - go
           - C#
           - Java
-  h2 Why does alexa dominate in apps
-  h3.fragment lambda
+  h2 Another reason Alexa dominate in apps
+  h3.fragment lambda and tight AWS integration
   div.fragment
     h4 Lambda languages
     :markdown-it
@@ -112,7 +114,7 @@ section
         - Still has a frontend
           - Not limited to not the browser
 
-  h2 How does drupal fit in?
+  h2 How does Drupal fit in?
   img(src="/content/images/druplicon-large.png" style="width:25%")
 
 section

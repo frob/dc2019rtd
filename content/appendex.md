@@ -21,4 +21,7 @@
 [Google Actions Dashboard](chttps://onsole.actions.google.com)
 [Google Actions Facts](https://g.co/dev/facts-about-google)
 [Google Actions Dev Docs](https://g.co/actionsdev)
+[Applying Built-in Hacks of Conversation to Your Voice UI](https://www.youtube.com/watch?v=wuDP_eygsvs)
+[Finding the Right voice](https://www.youtube.com/watch?v=0PmWruLLUoE)
+[Google I/O 2017 Voice App Playlist](https://www.youtube.com/playlist?list=PLJ21zHI2TNh9VkAu1EsOhpw92Wkm-XcuD)
 :::

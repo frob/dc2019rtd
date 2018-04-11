@@ -13,7 +13,7 @@
 
 >>>
 
-# outline
+# What we covered
 
   - [✔️] Cool stuff
   - [✔️] Voice App 101
@@ -21,7 +21,7 @@
   - [✔️] Natural Language Processing
   - [✔️] Current Market
   - [✔️] VUI design tips
-  - [✔️] Bringin it Home
+  - [✔️] Brought it home
 
 :::
 ::: slide

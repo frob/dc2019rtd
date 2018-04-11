@@ -24,10 +24,10 @@
 
 >>>
 
-## Consider this
+## Bring it home
 
-- want to have a voice app that tells one new joke every day
-  - This can be done multiple (bad) ways.
-    - you can manage the jokes through the vendor console
-    - you can have the response pre-programmed with hardcoded responses that get cycled through.
+Want to have a voice app that tells one new joke every day
+
+This can be done multiple ways.
+
 :::

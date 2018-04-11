@@ -38,7 +38,8 @@ section
           - keeping the interface conversational
             - Give your app multiple ways to ask something and multiple ways to tell someone something
           - gleening information
-          - https://www.youtube.com/watch?v=wuDP_eygsv
+          - https://www.youtube.com/watch?v=wuDP_eygsvs
+          - Applying Built-in Hacks of Conversation to Your Voice UI
         - Dealing with errors in conversation
 
   h2 VUI basics

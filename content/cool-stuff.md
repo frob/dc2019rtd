@@ -121,10 +121,8 @@ section
       -  If only there was some sort of system that could manage this content.
 
   h2.
-    So you have decided to build a voice app
+    So you have decided to build a <b>Voice App</b>
 
   ul
     li.fragment want to have a voice app that tells one new joke every day
-    li.fragment This can be done multiple (bad) ways.
-    li.fragment you can manage the jokes through the vendor console
-    li.fragment you can have the response pre-programmed with hardcoded responses that get cycled through.
+    li.fragment This can be done multiple <i>bad</i> ways.

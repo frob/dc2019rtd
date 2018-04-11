@@ -16,7 +16,7 @@ section
 
   :markdown-it
 
-    ## outline
+    ## Foreshadowing
 
       - [✔️] Cool stuff
       - [  ] Voice App 101
