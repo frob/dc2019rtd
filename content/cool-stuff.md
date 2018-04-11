@@ -17,11 +17,10 @@ section(data-background-image="/content/images/brandbgtop.png")
 
   h2 Live Demo
 
-  ul
-    li.fragment I would Ask Alexa for something
-    li.fragment It would respond
-    li.fragment I would edit something in Drupal and ask again
-    li.fragment It would respond differently
+  p.fragment I would Ask Alexa for something
+  p.fragment It would respond
+  p.fragment I would edit something in Drupal and ask again
+  p.fragment It would respond differently
 
 section
 
@@ -123,6 +122,6 @@ section
   h2.
     So you have decided to build a <b>Voice App</b>
 
-  ul
-    li.fragment want to have a voice app that tells one new joke every day
-    li.fragment This can be done multiple <i>bad</i> ways.
+
+  p.fragment We want a voice app that tells one new joke every day
+  p.fragment This can be done multiple <i>bad</i> ways

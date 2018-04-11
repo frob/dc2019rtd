@@ -33,18 +33,18 @@ section
   h3.fragment.fade-out ☑️ Voice to Text
 
   h3.fragment Open Source Language Parsing libraries
+  div.fragment(style="column-count: 2")
+    p <b>NLTK</b> for Python
+    p <b>NLPTools</b> for PHP
   div.fragment
-    :markdown-it
-      - **NLTK** for Python
-      - **NLPTools** for PHP
-  h3.fragment Do lots of data science processing to format the spoken language into something the computer can understand.
-      ul
-        li.fragment.fade-in Lemmatization
-        li.fragment.fade-in Morphological segmentation
-        li.fragment.fade-in Sentence breaking
-        li.fragment.fade-in Stemming
+    h3 Do lots of data science processing to format the spoken language into something the computer can understand.
+  div(style="column-count: 2")
+    p.fragment.fade-in Lemmatization
+    p.fragment.fade-in Morphological segmentation
+    p.fragment.fade-in Sentence breaking
+    p.fragment.fade-in Stemming
   h3.fragment Do Machine Learning
-    p TensorFlow
+  p.fragment TensorFlow
 
 section
   h2 Roll your own Machine Learning library
