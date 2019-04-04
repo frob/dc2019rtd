@@ -1,6 +1,7 @@
 ---
   meta:
     title: Real Time Drupal, or how I learned to stop worrying and love Elixir.
+    purpose: To show people the value of Phoenix and give them the tools to get started.
     author: Frank Robert Anderson
   outline:
     - prepatory
@@ -11,9 +12,11 @@
       - outline
     - body
       - demo| Scarry, start with the demo. Priciple, show the cool thing first.
+        - Drupal backed chat
+        - Phoenix backed Drupal Real-time comments
       - How does <insert thing> work?
         - Phoenix feature walkthrough
-      - technology| High level architecture
+      - technology| High level
         - BEAM walkthrough
           - Relang
           - Processes and messages
@@ -47,26 +50,22 @@
       file: introduction.md
     - clarity slide:
       file: clarity-slide.md
-    - outline:
-      file: outline.md
+    - disclosure:
+      file: disclosure.md
 
   # Body.
     - cool stuff:
       file: cool-stuff.md
+    - outline:
+      file: outline.md
     - how it works:
       file: howitworks.md
     - technology high level:
-      file: architecturehighlevel.md
-    - NLP Into:
-      file: opennlp.md
-    - NLP Detail:
-      file: opennlpdetail.md
-    - technology:
-      file: technology.md
-    # - architechture low level:
-    #   file: architechurelowlevel.md
-    - vui design:
-      file: design.md
+      file: technologyhighlevel.md
+    - architechture:
+      file: architechture.md
+    - tips:
+      file: tips.md
 
   # Conclusion.
     - reenforcement slide:
