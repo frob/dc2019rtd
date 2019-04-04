@@ -8,7 +8,16 @@
     "compile": "node index.js && cp -r content node_modules/reveal.js/ && cp index.html node_modules/reveal.js/ && cp -r theme node_modules/reveal.js/",
     "start": "cd node_modules/reveal.js/ && yarn start; cd ../..",
     "back": "cd ../..",
-    "test": "yarn compile && node node_modules/.bin/http-serve node_modules/reveal.js/"
+    "test": "yarn compile && node node_modules/.bin/http-serve node_modules/reveal.js/",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "compile": {
+      "patterns": [
+        "content"
+      ],
+      "extensions": "md"
+    }
   },
   "author": "",
   "license": "UNLICENSED",
@@ -20,6 +29,7 @@
     "markdown-it": "^8.3.1",
     "markdown-it-container": "^2.0.0",
     "markdown-it-deflist": "^2.0.1",
+    "npm-watch": "^0.6.0",
     "pug": "^0.1.0",
     "reveal.js": "^3.6.0"
   }

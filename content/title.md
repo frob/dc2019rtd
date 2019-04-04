@@ -4,13 +4,12 @@ class: title-slide
 
 
 >>> notes
- - Talk to me Drupal; Using Drupal to power a Voice App
- - You should be able to follow along by visiting the link below.
- - If you have an Echo device, please mute the mic now.
-   - You have been warned and I/we/no-one is to blame if we trigger it but you.
-   - You only have yourself to blame.
+ - Welcome to real-time Drupal
+ - or how I learned to stop worrying and love Elixir
+ - Really, why I think Elixir and Phoenix are technologies of great value
+ - The goal of this talk is to give you the tools to start to learn about Elixir and Phoenix
 >>>
 
 ![](/content/images/titleimage.png)
-# Talk to me Drupal
-Using Drupal to power a Voice App
+# Real-time Drupal
+or how I learned to stop worrying and love Elixir
