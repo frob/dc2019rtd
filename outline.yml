@@ -16,15 +16,58 @@
         - Phoenix backed Drupal Real-time comments
       - How does <insert thing> work?
         - Phoenix feature walkthrough
+          - Channels | websockets
+            - The connection from client to server
+          - HTTP/2 | push only, browsers don't support stateful connections
+            - templates support pushing assets
+          - generator | mix plugins
+            - helps you understand what to do and where to put things
+          - live reloading
+          - built in test
+            - this means that it is built with the idea that there will be tests and test drivin development
+          - web segregation
+            - What is an app
+          - What is so special here? | https://youtu.be/bk3icU8iIto?t=680
       - technology| High level
         - BEAM walkthrough
-          - Relang
+          - Erlang
+            - 30 year old from Ericson
+            - Erlang is good for communication at massive scale
+              - Turns out that telephone switches are analagous to the web
+              - https://youtu.be/bk3icU8iIto?t=779
+            - Code can be deployed to a running server (code deltas)
+              - The phones cannot be brought down for any reason
           - Processes and messages
+            - the vm works like an operating system
+            - automatically distributes processes across cpu and cores
+            - process is cheap (around 1k) and has own garbage collection
+            - one process doesn't block another
+            - If a process dies, that is okay it's isolated, you can bring it back,
+              - Have you tried turning it off and on again
+              - https://youtu.be/bk3icU8iIto?t=939
+          - concurancy
+            - async isn't concurancy
+            - WhatsApp 2 million on one node less than 20 people
+            - Bleacher Report
+              - from few minutes for a push
+              - 150 aws instances with lots of caching
+              - after 10-30ms response for push
+              - 30 aws instances with no caching
+            - RiotGames
+          - Performance
+            - WhatsApp 2 mill was Erlang
+            - Bleacher Report was Pure Elixir
+            - Phoenix 2 mill on a heafty server 40 cores 128GB ram
+              - As benchmarked with 40 machines opening connectsions at 40/s to send wikipedia articles to eachother
           - OTP
           - Plug/Cowboy
           - Ecto
             - Pool
+          - remote_console
+          - observer
         - Why not Erlang
+        - Software Economics and Function Point Metrics
+          - https://www.youtube.com/watch?v=1e2_NXLxi-E
       - architechture| How can we use this?
         - Easiest - Drupal as Drupal and Phoenix as Phoenix, include phoenix.js
           - Drupal, PHP, Maria, Nginx/Apache for HTTP/S
@@ -36,11 +79,70 @@
           - Drupal, PHP, Maria for content management com via FastCGI
           - Phoenix, Cowboy for app serving
       - tips| How to talk Elixir
+        - https://www.youtube.com/watch?v=pBNOavRoNL0
+        - mix
+        - rebar
+        - unit tests
+        - documentation
+        - pattern matching
+          - https://youtu.be/gom6nEvtl3U?t=1159
+          - you don't need to use switch or if as much for branching
+        - pipes
+          - https://youtu.be/gom6nEvtl3U?t=1308
+          - wraps the paramaters to wrapping functions
+        - ubmbrella
+        - module
+          - no classes only module namespaces
+        - function
+          - pattern matching
+          - underscores are ignored by compiler
+        - arity
+        - Mod.fun/arity
+        - OTP
+        - GenServer
+          - PID
+          - cast
+          - each process has a mailbox
+          - think of it like microservives
+          - Let it die
+            - don't worry about error handling
+            - BEAM cannot segfault
+        - Supervisors
+          - reboots the worker processes
+          - processes started by supervisores aren't called by pid, but insteadh machinname
+          - Agents can be used to save state
+        - Phoenix
+          - Framework build on Elixir
+          - app vs app_web | seperate the frontend code from the web frontent
+          - context | Dedicated modules that expose related functionallity
     - conclusion
       - reenforcement
       - conclusion
+        - There has been little actual gain with sharing code between front and back-end
+        - Why I gave the talk
+          - The goal
+          - The why, because there is so much more out there.
+            - Drupal 8 got us off the island by addopting composer
+            - Drupal is fine, it exists well within the php landscape
+              - We need to get off our php planet
+              - If Drupal is going to continue to get good we need to know what else is going on
+      - Live View
+        - Last year, I wasn't planning on giving a talk at DrupalCon this year
+        - I figured you all had heard enough from me two years in a row
+        - Then I went to ElixirCon and I saw this
+          - Demo some Phoenix LiveView
+        - This has the potential to change everything about how a web app is expected to work
+        - HTTP/2 and WS isn't the best sollution for everything
+          - a friend of mine once said, sometimes a table should just be a table
+          - a website can just be a website
+          - But Drupal's market position isn't in just a website
+          - Drupal is for interesting web-apps according to Dries
+
       - sprint slide
       - apendex
+        - https://www.youtube.com/watch?v=OsEEsxIrtsQ&t=460s
+        - https://www.youtube.com/watch?v=gom6nEvtl3U
+
 
   slides:
   # Prepatory.
