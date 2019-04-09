@@ -409,6 +409,8 @@
       file: tips-features-supervisor.md
     - tips-features-meta:
       file: tips-features-meta.md
+    - tips-distillery:
+      file: tips-distillery.md
 
   # Conclusion.
     - reenforcement slide:
