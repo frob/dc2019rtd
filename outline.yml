@@ -103,38 +103,38 @@
               - Hexdocs is a place for hex packages to host their documentation
           - https://www.youtube.com/watch?v=pBNOavRoNL0
             - 16:06 Decision Making
-            - 13:30 Comparison
-              - Data is typed
-                - int vs float
-                  - ``` 7 == 7.0``` => true
-                  - ``` 7 === 7.0``` => false
-              - and the rest
-                - "> < <= >="
-                - and or NOT && ||
-              - if age >= 18 do \
-                  "can vote" \
-                else
-                  "cannot vote"
-                end
-              - unless age === 18 do
-                  "You are 18"
-                else
-                end
-              - switch like statements
-                - case some_variable do
-                    1 -> "something"
-                    2 -> "something else"
-                    3 -> "something completely different"
+              - 13:30 Comparison
+                - Data is typed
+                  - int vs float
+                    - ``` 7 == 7.0``` => true
+                    - ``` 7 === 7.0``` => false
+                - and the rest
+                  - "> < <= >="
+                  - and or NOT && ||
+                - if age >= 18 do \
+                    "can vote" \
+                  else
+                    "cannot vote"
                   end
-                - Cond is useful for checking across many different statments
-                - cond do
-                    age >= 18 -> "can vote"
-                    age >= 16 -> "can drive"
-                    age >= 14 -> "cannot drive"
-                    true -> "default"
+                - unless age === 18 do
+                    "You are 18"
+                  else
                   end
-              - Ternatry
-                - Just an if/else on one line
+                - switch like statements
+                  - case some_variable do
+                      1 -> "something"
+                      2 -> "something else"
+                      3 -> "something completely different"
+                    end
+                  - Cond is useful for checking across many different statments
+                  - cond do
+                      age >= 18 -> "can vote"
+                      age >= 16 -> "can drive"
+                      age >= 14 -> "cannot drive"
+                      true -> "default"
+                    end
+                - Ternatry
+                  - Just an if/else on one line
             - 03:50 Data Types
               - is_int
                 - no maximum size
@@ -144,19 +144,19 @@
                 - ``` Atom \#{is_atom(:"Drupal dot Org")}```
               - ranges
                 ``` one_to_ten 1..10```
-            - 06:38 Strings
-              - double quotes ``` string = "Hello World!"```
-              - String Length ``` String.length("Hello World!") ``` => 12
-              - String concatination ``` "Hello" <> " " <> "World!"" ```
-              - String search ``` String.contains?("foobar", "foo") ``` => true
-              - String first char ``` String.first("foobar") ``` => "f"
-              - String char at index ``` String.at("foobar", 3) ``` => "b"
-              - String substring ``` String.slice("foobar", 3, 5) ``` => "bar"
-              - String explode ``` String.split("foobar", "b") ``` => ["foo", "oo"]
-              - String explode ``` String.revers("foobar", "b") ``` => ["foo", "oo"]
-              - String explode ``` String.upcase("foobar", "b") ``` => ["foo", "oo"]
-              - String explode ``` String.downcase("foobar", "b") ``` => ["foo", "oo"]
-              - String explode ``` String.capitalize("foobar", "b") ``` => ["foo", "oo"]
+              - 06:38 Strings
+                - double quotes ``` string = "Hello World!"```
+                - String Length ``` String.length("Hello World!") ``` => 12
+                - String concatination ``` "Hello" <> " " <> "World!"" ```
+                - String search ``` String.contains?("foobar", "foo") ``` => true
+                - String first char ``` String.first("foobar") ``` => "f"
+                - String char at index ``` String.at("foobar", 3) ``` => "b"
+                - String substring ``` String.slice("foobar", 3, 5) ``` => "bar"
+                - String explode ``` String.split("foobar", "b") ``` => ["foo", "oo"]
+                - String explode ``` String.revers("foobar", "b") ``` => ["foo", "oo"]
+                - String explode ``` String.upcase("foobar", "b") ``` => ["foo", "oo"]
+                - String explode ``` String.downcase("foobar", "b") ``` => ["foo", "oo"]
+                - String explode ``` String.capitalize("foobar", "b") ``` => ["foo", "oo"]
             - 12:44 Math
               - + - * /
               - integer division
@@ -174,9 +174,9 @@
               - bunch of elements ``` eleven_nines = Tuple.duplicate(9, 11)```
               - ``` {name, quest, color} = {"Robin", "To find the holy grail", "red, no blue"}```
               - ``` IO.puts("favorite \#{color}")``` => "red, no blue"
-            - 36:40 Maps
-              - Like dictionaries
-                - ``` map = %{"key" => "value", "key2" => "value2"}```
+              - 36:40 Maps
+                - Like dictionaries
+                  - ``` map = %{"key" => "value", "key2" => "value2"}```
             - 28:16 Lists
               - List.insert_at
               - List.delete_at
@@ -232,32 +232,32 @@
                   - ``` def somefunc(foo \\ "bar") do
                           IO.puts foo
                         end```
-            - 41:01 Anonymous Functions
-              - normal syntax, should be familiar
-                - ```add_things = fn (a, b) -> a + b end```
-              - short syntax
-                - ```add_things = &(&1 + &2)```
-              - one function many definitions
-                - ``` add_things = fn
-                        {a, b} -> a + b
-                        {a, b, c} -> a + b + c
-                      end```
-                - ```add_things.({1, 2})
-            - 45:52 Recursion
-              - ``` def print_list([element|list]) do
-                      IO.puts element
-                      print_list(list)
-                    end
-                      def print_list([]), {do:} nil
-                      remove the curly brackets
-                ```
+              - 41:01 Anonymous Functions
+                - normal syntax, should be familiar
+                  - ```add_things = fn (a, b) -> a + b end```
+                - short syntax
+                  - ```add_things = &(&1 + &2)```
+                - one function many definitions
+                  - ``` add_things = fn
+                          {a, b} -> a + b
+                          {a, b, c} -> a + b + c
+                        end```
+                  - ```add_things.({1, 2})
             - 48:48 Looping
               - There is no looping, You will need to use recursion or Enumerables
-            - 53:05 Enumerables
-              - Enum.each
-              - Enum.map
-              - Enum.reduce([], fn)
-              - Enum.uniq([])
+              - 45:52 Recursion
+                - ``` def print_list([element|list]) do
+                        IO.puts element
+                        print_list(list)
+                      end
+                        def print_list([]), {do:} nil
+                        remove the curly brackets
+                  ```
+              - 53:05 Enumerables
+                - Enum.each
+                - Enum.map
+                - Enum.reduce([], fn)
+                - Enum.uniq([])
             - 58:19 List Comprehensions
             - 1:01:21 Concurrency
               - spawn(fn() -> do_stuff("foobar") end)
@@ -349,6 +349,58 @@
       file: architechture.md
     - tips:
       file: tips.md
+
+  # Tips Sytax Intro.
+    - tips-intro:
+      file: tips-intro.md
+    # - tips-syntax-mix:
+    #   file: tips-syntax-mix.md
+    # - tips-syntax-rebar:
+    #   file: tips-syntax-rebar.md
+    # - tips-syntax-test:
+    #   file: tips-syntax-test.md
+    # - tips-syntax-hex:
+    #   file: tips-syntax-hex.md
+
+  # Tip Syntax Proper
+    - tips-syntax-toc:
+      file: tips-syntax-toc.md
+    - tips-syntax-branching:
+      file: tips-syntax-branching.md
+    # - tips-syntax-comparison:
+    #   file: tips-syntax-comparison.md
+    - tips-syntax-types:
+      file: tips-syntax-types.md
+    # - tips-syntax-string:
+    #   file: tips-syntax-strings.md
+    - tips-syntax-math:
+      file: tips-syntax-math.md
+    - tips-syntax-tuples:
+      file: tips-syntax-tuples.md
+    # - tips-syntax-maps:
+    #   file: tips-syntax-maps.md
+    - tips-syntax-lists:
+      file: tips-syntax-lists.md
+    - tips-syntax-pattern:
+      file: tips-syntax-pattern.md
+    - tips-syntax-mfa:
+      file: tips-syntax-mfa.md
+    # - tips-syntax-anonfn:
+    #   file: tips-syntax-anonfn.md
+    # - tips-syntax-rec:
+    #   file: tips-syntax-rec.md
+    - tips-syntax-loops:
+      file: tips-syntax-loops.md
+    # - tips-syntax-emun:
+    #   file: tips-syntax-enum.md
+    - tips-syntax-list-comp:
+      file: tips-syntax-list-comp.md
+    - tips-syntax-concurrency:
+      file: tips-syntax-concurrency.md
+    - tips-syntax-pipes:
+      file: tips-syntax-pipes.md
+
+  # Tips Features.
     - tips-features-otp:
       file: tips-features-otp.md
     - tips-features-gen:
