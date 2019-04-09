@@ -11,7 +11,7 @@ section(data-background-image="/content/images/brandbgtop.png")
   div.fragment
 
   :markdown-it
-    ## fragment Some not-scientific-at-all™ benchmarks
+    ## fragment Some not-scientific-at-all™ tests
 
     ```
     ab -n 1000 -c 100 http://www.a-static-site-i-hosted.com
@@ -30,7 +30,7 @@ section(data-background-image="/content/images/brandbgtop.png")
       - In 2015 I wrote a blog post about Elixir performance
       - Some not-scientific-at-all™ benchmarks showed that Phoenix, at that time was as almost as performant and scalable as a static site
 
-  h2.fragment Some not-scientific-at-all™ benchmarks
+  h2.fragment Some not-scientific-at-all™ test results
 
   div.fragment
     h3 Static
@@ -40,7 +40,6 @@ section(data-background-image="/content/images/brandbgtop.png")
       Requests per second:    182.15 [#/sec] (mean)
       Time per request:       549.001 [ms] (mean)
       Time per request:       5.490 [ms] (mean, across all concurrent requests)
-      Transfer rate:          603.37 [Kbytes/sec] received
       ```
 
   div.fragment
@@ -51,9 +50,7 @@ section(data-background-image="/content/images/brandbgtop.png")
       Requests per second:    133.54 [#/sec] (mean)
       Time per request:       748.844 [ms] (mean)
       Time per request:       7.488 [ms] (mean, across all concurrent requests)
-      Transfer rate:          5420.73 [Kbytes/sec] received
       ```
-
 
 section(data-background-image="/content/images/brandbgtop.png")
 

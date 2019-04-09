@@ -1,53 +1,68 @@
 ---
-  parser: pug
+parser: pug
 ---
 
 section
 
   aside.notes
     :markdown-it
-      - Intents, Utterances, and Slots
-        - Intents
-          - It all starts with Intents.
-          - The goal, function, or command you want to happen
-        - Utterances
-          - The words you expect a user to say to make the intent happen
-          - Really it is the training data for the AI part of all of this
-        - Slots or Entities
-          - Data that the intent needs to be fulfilled
-          - If the Intent is a function then the slot is the paramater
-          - Entities are somewhat selfcontained
-            - Slots can be custom or one of Amazon's prebuilt data types
-            - Slots also control how Alexa asks for the data
-              - If Alexa needs a piece of data then it will ask the user for  it, how the user is asked is controlled by the slot
-              - They also hold the validation logic and the formatting logic
-              - Your code or API expects a date to be formatted a certain way, the Slot or Entity is what makes sure the words that come out of a persons mouth become a properly formatted date, or location, or color, or food, or whatever. 
+      - Phoenix
 
-  h1 Intents, Utterances, and Slots
-
-  h2.fragment Intents
-  p.fragment The goal, function, or command you want to happen
-  h2.fragment Utterances
-  p.fragment The words you expect a user to say to make the intent happen
-  h2.fragment Entities
-  div.fragment
-    p Data that the intent needs
-    p Intent Parameters
+  h1 How to get started
 
 section
+
   aside.notes
     :markdown-it
-      - Fulfillment
-        - This is what happens when the Alexa thinks it know the intent  of the user and all the data slots are filled
-        - This can be any https REST endpoint
-        - This can also be a straigt up lambda function
-        - Segway
-          - https://en.wikipedia.org/wiki/Segway_PT#/media/File:Black_x2_and_white_i2.jpg
-          - Maybe a gif of wierd al from the white and nerdy video
+      - Framework build on Elixir
+      - app vs app_web | seperate the frontend code from the web frontent
+        - it is an MVC but not like most MVCs
+          - They have removed the model (dumping ground) and streamlined the consept
+      - context | Dedicated modules that expose related functionallity
 
-  h2 Fulfillment
+  h2 Phoenix
 
-  :markdown-it
-    - This is what happens when the app thinks it know the intent  of the user and all the data slots are filled
-    - This can be any https REST endpoint
-    - This can also be a straigt up lambda function
+  li.fragment MVC Framework with no "Models"
+  li.fragment Contextual Functionality separated into related apps
+    :markdown-it
+      ```
+      lib/
+      ├── demo
+      │   ├── accounts
+      │       ├── accounts.ex
+      │       └── user.ex
+      └── demo_web
+             └─── user_live
+                 ├── edit.ex
+                 ├── index.ex
+                 ├── new.ex
+                 ├── presence_index.ex
+                 └── show.ex
+      ```
+
+section
+
+  aside.notes
+    :markdown-it
+      - Phoenix feature walkthrough
+        - Channels | websockets
+          - The connection from client to server
+        - HTTP/2 | push only, browsers don't support stateful connections
+          - templates support pushing assets
+        - generator | mix plugins
+          - helps you understand what to do and where to put things
+          - The generators are a type of self documentation
+        - live reloading
+        - built in test
+          - this means that it is built with the idea that there will be tests and test drivin development
+        - What is so special here? | https://youtu.be/bk3icU8iIto?t=680
+
+  h2 Phoenix Features
+
+  li.fragment Channels for websockets
+  li.fragment HTTP/2
+  li.fragment Useful Generators
+  li.fragment Live Reloading
+  li.fragment Front-end tool agnostic
+  li.fragment Built in tests
+  li.fragment https://youtu.be/bk3icU8iIto?t=680
