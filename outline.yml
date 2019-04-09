@@ -15,6 +15,12 @@
         - Drupal backed chat
         - Phoenix backed Drupal Real-time comments
       - How does <insert thing> work?
+        - Phoenix
+          - Framework build on Elixir
+          - app vs app_web | seperate the frontend code from the web frontent
+            - it is an MVC but not like most MVCs
+              - They have removed the model (dumping ground) and streamlined the consept
+          - context | Dedicated modules that expose related functionallity
         - Phoenix feature walkthrough
           - Channels | websockets
             - The connection from client to server
@@ -284,10 +290,6 @@
             - reboots the worker processes
             - processes started by supervisores aren't called by pid, but insteadh machinname
             - Agents can be used to save state
-          - Phoenix
-            - Framework build on Elixir
-            - app vs app_web | seperate the frontend code from the web frontent
-            - context | Dedicated modules that expose related functionallity
           - Meta-programming
             - This is what many of the features of Elixir that I just talked about is built on. It is a way to add syntactical sugar without changing the whole language.
     - conclusion
@@ -347,6 +349,14 @@
       file: architechture.md
     - tips:
       file: tips.md
+    - tips-features-otp:
+      file: tips-features-otp.md
+    - tips-features-gen:
+      file: tips-features-gen.md
+    - tips-features-supervisor:
+      file: tips-features-supervisor.md
+    - tips-features-meta:
+      file: tips-features-meta.md
 
   # Conclusion.
     - reenforcement slide:
