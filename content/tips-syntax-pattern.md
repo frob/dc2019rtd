@@ -19,3 +19,23 @@
 # Pattern Matching
 
 :::
+
+::: slide
+
+>>> notes
+
+- Do you notice anythin interesting about this from my last example?
+- head and tail are pattern maching in list 1
+  - head is matched against the first element
+  - tial no matches the rest of the elements
+
+>>>
+
+# Notice anything?
+
+```elixir
+[1,2,3]
+[head | tail] = list1 => 1, [2, 3]
+```
+
+:::
