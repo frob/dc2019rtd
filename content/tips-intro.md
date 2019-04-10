@@ -115,10 +115,11 @@ mix test
   - documentation
     - https://hexdocs.pm/
     - Hexdocs is a place for hex packages to host their documentation
+    - This is a part of the language, it isn't a solution that was bolted on afterward with three other competing solutions.
 
 >>>
 
-# Hex Packages
+# Hex Packages & Docs
 
 ![](/content/images/hex.png)
 

@@ -16,12 +16,17 @@
 
 >>> notes
 
--
+- Branching, Types, List, Tuples, Maps, Lists, Pattern Matching, Modules, Enumeration, Concurrency, Pipes
+- http://www.newthinktank.com/2017/04/learn-elixir-one-video/
 
 >>>
 
 ## This is what we will go over
 
-@TODO put list of stytax we will go through
+Branching, Types, List, Tuples, Maps, Lists, Pattern Matching, Modules, Enumeration, Concurrency, Pipes
+
+![](/content/images/video.png)
+
+https://www.youtube.com/watch?v=pBNOavRoNL0
 
 :::

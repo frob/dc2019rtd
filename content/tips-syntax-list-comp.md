@@ -4,7 +4,8 @@
 >>> notes
 
 - I didn't know where else to put this.
-- List comprehension is like a map, but backwards.
+- List comprehension is like a map, but the sytax is backwards.
+- https://stackoverflow.com/a/47478020/1054656
 
 >>>
 
@@ -17,7 +18,7 @@
 >>> notes
 >>>
 
-## List Comprehension
+## Example
 
 ```elixir
 double_list = for el <- [1,2,3,4], do : el * 2
