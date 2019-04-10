@@ -20,10 +20,11 @@ section
           - They have removed the model (dumping ground) and streamlined the consept
       - context | Dedicated modules that expose related functionallity
 
-  h2 Phoenix
-
-  li.fragment MVC Framework with no "Models"
-  li.fragment Contextual Functionality separated into related apps
+  h1 Phoenix
+  ul
+    li.fragment MVC Framework with no "Models"
+    li.fragment Contextual Functionality separated into related apps
+  div.fragment
     :markdown-it
       ```
       lib/
@@ -57,12 +58,11 @@ section
           - this means that it is built with the idea that there will be tests and test drivin development
         - What is so special here? | https://youtu.be/bk3icU8iIto?t=680
 
-  h2 Phoenix Features
-
-  li.fragment Channels for websockets
-  li.fragment HTTP/2
-  li.fragment Useful Generators
-  li.fragment Live Reloading
-  li.fragment Front-end tool agnostic
-  li.fragment Built in tests
-  li.fragment https://youtu.be/bk3icU8iIto?t=680
+  h1 Phoenix Features
+  ul
+    li.fragment Channels for websockets
+    li.fragment HTTP/2
+    li.fragment Useful Generators
+    li.fragment Live Reloading
+    li.fragment Front-end tool agnostic
+    li.fragment Built in tests

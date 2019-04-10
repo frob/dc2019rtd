@@ -351,6 +351,8 @@
       file: tips.md
 
   # Tips Sytax Intro.
+    - tips-howto-func:
+      file: tips-howto-func.md
     - tips-intro:
       file: tips-intro.md
     # - tips-syntax-mix:

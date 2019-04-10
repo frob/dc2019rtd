@@ -8,10 +8,9 @@ section(data-background-image="/content/images/brandbgtop.png")
       - In 2015 I wrote a blog post about Elixir performance
       - Some not-scientific-at-all™ benchmarks showed that Phoenix, at that time was as almost as performant and scalable as a static site
 
-  div.fragment
 
   :markdown-it
-    ## fragment Some not-scientific-at-all™ tests
+    ## Some not-scientific-at-all™ tests
 
     ```
     ab -n 1000 -c 100 http://www.a-static-site-i-hosted.com
@@ -29,6 +28,7 @@ section(data-background-image="/content/images/brandbgtop.png")
     :markdown-it
       - In 2015 I wrote a blog post about Elixir performance
       - Some not-scientific-at-all™ benchmarks showed that Phoenix, at that time was as almost as performant and scalable as a static site
+      - The next month something very interesting happened
 
   h2.fragment Some not-scientific-at-all™ test results
 
@@ -56,45 +56,17 @@ section(data-background-image="/content/images/brandbgtop.png")
 
   aside.notes
     :markdown-it
-      *Cool Stuff*
-      - I believe presentations are more insteresting if you show the cool stuff first
+      - The phoenix team was able to simulate using 30-40 aws severs
+      - hitting one really beaffy server 2 million connections
+      - They could have pushed if further, but thought why?
+      - php has a problem
+        - It can never do this
+        - I am not one who likes to say something can never happen
+        - what I am really saying is it would take a tremendouse effort to do anything remotely like this in php.
+        - That is because of the fundemental way php works
+        - it is designed around the request response lifecycle
+        - it isn't horrible at long running things anymore, but it still isn't good.
+        - Drupal (or anything based on Symphony HTTPKernel) are especially bound by this.
 
-  h2 Live Demo
-
-section
-
-  aside.notes
-    :markdown-it
-
-      - notes
-
-  :markdown-it
-
-    ## Drupal Chat
-
-    Show an iFrame demo
-
-
-section
-
-  aside.notes
-    :markdown-it
-      - notes
-
-  :markdown-it
-
-    ## Real-time Comments
-
-    Show an iFrame of real-time Drupal node comments
-
-section
-
-  aside.notes
-    :markdown-it
-      - notes
-
-  :markdown-it
-
-    ## Sketch pad
-
-   Show and Iframe that anyone can draw on
+  h1 2 Million Served
+  img(src="/content/images/2mil.png")

@@ -275,3 +275,8 @@ html.baltimore-promenade body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+  .narrow-image img {
+    width: auto;
+    max-height: 400px
+  }

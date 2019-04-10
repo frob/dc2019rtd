@@ -63,11 +63,11 @@
     end
 >>>
 
-## And the rest
+## if/then and unless
 
 ```elixir
 if age >= 18 do
-    "can vote"
+  "can vote"
 else
   "cannot vote"
 end
@@ -137,10 +137,16 @@ end
 >>> notes
 
 - Ternatry
+  - No actual ternary ? : operator
+  - http://learningwithjb.com/posts/elixir's-version-of-the-ternary-operator
   - Just an if/else on one line
 
 >>>
 
 ## Ternary
+
+```elixir
+message = if age > 18, do: "Can Vote", else: "Can't Vote"
+```
 
 :::

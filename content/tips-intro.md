@@ -1,3 +1,7 @@
+---
+class: narrow-image
+---
+
 ::: slide
 
 >>> notes
@@ -81,7 +85,7 @@ The --help and --version flags can be given instead of a task for usage and vers
 
 # Rebar
 
-@TODO Rebar logo
+![](/content/images/rebar.png)
 
 :::
 
@@ -91,6 +95,7 @@ The --help and --version flags can be given instead of a task for usage and vers
 
 - unit tests
   - ExUnit - built in unit test framework
+  - Notice how simple this command is. Its because it is just another mix task
 
 >>>
 
@@ -115,6 +120,6 @@ mix test
 
 # Hex Packages
 
-@TODO Hex logo
+![](/content/images/hex.png)
 
 :::
