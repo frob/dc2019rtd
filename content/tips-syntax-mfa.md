@@ -81,7 +81,7 @@ This means there is no function defined with the name **foo** that takes two arg
 
 >>>
 
-# Same name different number of arguments
+# Same name different arguments
 
 ```elixir
 defmodule Greeter do
@@ -185,14 +185,18 @@ end
 
 # APIs like this become possible
 
+## Drupal Form Alter
+
 ```php
 function example_login_form_form_alter($form, $form_state) {
   ...
 }
 ```
 
+## A fake equivalent in Elixir
+
 ```elixir
-def hook_alter(:login_form, form, _form_state) :do nil
+def alter(:login_form, form, _form_state) :do nil
 ```
 
 :::

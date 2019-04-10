@@ -44,7 +44,7 @@
 
 - Where can I deploy my code?
 - Self hosted
-  -  AWS, Linode, Digital Ocean
+  - AWS, Linode, Digital Ocean
 - Heroku
   - Elixir has roots in Ruby and so Heroku is obviously a target
   - I have heard mixed things about using Heroku
@@ -59,7 +59,7 @@
 
 ## Where to deploy elixir
 
-_ AWS, Linode, Digital Ocean
+- AWS, Linode, Digital Ocean
 - Heroku
 - gigalixir
 - Serverless

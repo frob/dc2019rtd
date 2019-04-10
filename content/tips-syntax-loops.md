@@ -3,7 +3,10 @@
 
 >>> notes
 
-- There is no looping, You will need to use recursion or Enumerables
+- There is no looping
+  - state is immutable
+  - reassigning a counter
+- You will need to use recursion or Enumerables
 
 >>>
 
@@ -20,7 +23,11 @@
 
 >>>
 
-# Loops & Enumeration
+# Enumerable types
+
+- List
+- Map
+- Range
 
 :::
 

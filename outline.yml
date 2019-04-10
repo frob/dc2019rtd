@@ -419,8 +419,8 @@
       file: reenforcement.md
     - conclusion:
       file: conclusion.md
-    - live:
-      file: live.md
+    # - live:
+    #   file: live.md
     - sprint:
       file: sprint.md
     - feedback:

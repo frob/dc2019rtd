@@ -5,24 +5,18 @@ section
 
   aside.notes
     :markdown-it
-      - Cool stuff
-      - Voice App 101
+      - How it works
+      - Technology
       - Architecture
-      - Natural Language Processing
-      - Current Market
-      - VUI design tips
-      - Bringin it Home
-      - Questions
+      - Into to Elixir
+      - Conclusion
 
   :markdown-it
 
     ## Foreshadowing
 
-      - [✔️] Cool stuff
-      - [  ] Voice App 101
-      - [  ] Architecture
-      - [  ] Natural Language Processing
-      - [  ] Current Market
-      - [  ] VUI design tips
-      - [  ] Bringin it Home
-      - [  ] Questions
+      - How it works
+      - Technology
+      - Architecture
+      - Into to Elixir
+      - Conclusion

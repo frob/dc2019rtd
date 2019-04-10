@@ -13,4 +13,35 @@
 
 # Pipes
 
+```elixir
+conn
+  |> put_status(:created)
+  |> put_resp_header("location", Routes._path(conn, :show, _))
+  |> render("show.json", _: _)
+```
+
+:::
+
+::: slide
+
+>>> notes
+
+- example
+
+>>>
+
+# Pipes
+
+## PHP
+```php
+$array = array_sort(exploode(" ", $text))
+```
+
+## Elixir
+```elixir
+list1
+  |> List.sort
+  |> List.split(" ", list1)
+```
+
 :::

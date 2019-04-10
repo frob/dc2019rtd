@@ -72,8 +72,8 @@ a == :hello => true
 # Notice anything?
 
 ```elixir
-[1,2,3]
-[head | tail] = list1 => 1, [2, 3]
+list1 = [1,2,3]
+[the_head | the_rest] = list1 => 1, [2, 3]
 ```
 
 :::

@@ -1,27 +1,21 @@
 ---
-  class: apendix-slide
+  # class: apendix-slide
+  parser: pug
 ---
 
-::: section data-background-image="/content/images/dc2018background.png"
+section.apendix-slide(data-background-image="/content/images/dc2019background.png")
 
->>> notes
-- @TODO put notes here .
+  br
+  h1 Links
 
->>>
-
-# Links
-
-[Italian grandmother learning to use Google home](https://www.youtube.com/watch?v=e2R0NSKtVA0)
-[I've got no screens](https://www.slideshare.net/cwferrel/ive-got-no-screens-internets-screenless-future-sxsw-2018-90319757)
-[Chatbot API Drupal Module](https://www.drupal.org/project/chatbot_api)
-[Excell Neural Network](https://www.youtube.com/watch?v=kCL065_0zTY)
-[NLP in Python](https://elitedatascience.com/python-nlp-libraries)
-[NLP wikipedia](https://en.wikipedia.org/wiki/Natural-language_processing)
-[Ben Heck's Alexa Powered Workbench](https://www.youtube.com/watch?v=3TaLlI4BqeI)
-[Google Actions Dashboard](chttps://onsole.actions.google.com)
-[Google Actions Facts](https://g.co/dev/facts-about-google)
-[Google Actions Dev Docs](https://g.co/actionsdev)
-[Applying Built-in Hacks of Conversation to Your Voice UI](https://www.youtube.com/watch?v=wuDP_eygsvs)
-[Finding the Right voice](https://www.youtube.com/watch?v=0PmWruLLUoE)
-[Google I/O 2017 Voice App Playlist](https://www.youtube.com/playlist?list=PLJ21zHI2TNh9VkAu1EsOhpw92Wkm-XcuD)
-:::
+  :markdown-it
+    [Elixir Syntax Tutorial](https://www.youtube.com/watch?v=pBNOavRoNL0)
+    [This session](https://events.drupal.org/node/22347)
+    [Feedback](https://www.surveymonkey.com/r/DrupalConSeattle)
+    [Elixir and Phoenix Introduction](https://youtu.be/bk3icU8iIto)
+    [DrupalCon Austin 2014: Functional PHP](https://www.youtube.com/watch?v=M3_xnTK6-pA)
+    [Distillery Docs](https://hexdocs.pm/distillery/home.html)
+    [Into to Concurrency](https://www.poeticoding.com/spawning-processes-in-elixir-a-gentle-introduction-to-concurrency/)
+    [Into to Mix](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html)
+    [List Comprehension](https://stackoverflow.com/a/47478020/1054656)
+    [Streaming through a pool](http://learningelixir.joekain.com/streaming-through-a-pool-in-elixir/)
